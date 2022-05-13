@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { useCallback } from 'react'
+import React, { useState, useEffect,useCallback } from 'react';
 
-function Control({playState,setPlayState,volumeState,setVolumeState}) {
+function Control({playState,setPlayState}) {
     const [isPlayAll,setIsPlayAll] = useState(playState.every(it => it === true))
     const [isPlayOnboards,setIsPlayOnboards] = useState((it,index) => index === 0 || it === true)
 
@@ -36,6 +35,8 @@ function Control({playState,setPlayState,volumeState,setVolumeState}) {
         setPlayState([playState[0],true,true,true,true,true,true,true,true,true,true,true,true,true,true]);
       }
     }
+
+    /*
     const muteAll = () => {
       setVolumeState([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]);
     }
@@ -43,6 +44,7 @@ function Control({playState,setPlayState,volumeState,setVolumeState}) {
       console.log("TADA")
       setVolumeState([volumeState[0],0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]);
     }
+    */
 
     return (
     <>

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactPlayer from "react-player";
 
-function Grid15({urls,playState,setPlayState,volumeState,setVolumeState}) {
+function Grid15({urls,playState,setPlayState,volumeState}) {
 
   const handlePlayStateChange = (index,value) => {
     let t= [...playState]; 
