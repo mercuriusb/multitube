@@ -1,14 +1,9 @@
 import React, { useState, useEffect,useCallback } from 'react';
+import { FaPause,FaPlay } from "react-icons/fa";
 
 function Control({playState,setPlayState}) {
     const [isPlayAll,setIsPlayAll] = useState(playState.every(it => it === true))
     const [isPlayOnboards,setIsPlayOnboards] = useState((it,index) => index === 0 || it === true)
-
-    const checkAllPlaying = useCallback(() => {
-      let value = playState.every(it => it === true)
-      console.log("play all value: " + value + " main state: " + playState[0])
-      return value;
-    },[playState])
 
     const checkPlayOnboards = useCallback(() => {
       let value = playState.every((it,index) => index === 0 || it === true)
@@ -17,46 +12,42 @@ function Control({playState,setPlayState}) {
     },[playState])
 
     useEffect(() => {
-      setIsPlayAll(checkAllPlaying)
-      setIsPlayOnboards(checkPlayOnboards)
-    },[checkAllPlaying,checkPlayOnboards]);
+      const temp = checkPlayOnboards
+      setIsPlayAll(temp && playState[0] === true)
+      setIsPlayOnboards(temp)
+    },[playState,checkPlayOnboards]);
 
     const changePlayAll = () => {
-      if(isPlayAll){
-        setPlayState([false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]);
-      }else{
-        setPlayState([true,true,true,true,true,true,true,true,true,true,true,true,true,true,true]);
+      var newPlayState = []
+      for(var i=0; i < playState.length; i++){
+        newPlayState.push(!isPlayAll)
       }
+      setPlayState(newPlayState);
     }
     const changePlayOnboards = () => {
-      if(isPlayOnboards){
-        setPlayState([playState[0],false,false,false,false,false,false,false,false,false,false,false,false,false,false]);
-      }else{
-        setPlayState([playState[0],true,true,true,true,true,true,true,true,true,true,true,true,true,true]);
+      var newPlayState = []
+      for(var i=0; i < playState.length; i++){
+        newPlayState.push(!isPlayOnboards)
       }
+      newPlayState[0] = playState[0]
+      setPlayState(newPlayState);
     }
 
-    /*
-    const muteAll = () => {
-      setVolumeState([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]);
-    }
-    const muteOnboards = () => {
-      console.log("TADA")
-      setVolumeState([volumeState[0],0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]);
-    }
-    */
+
 
     return (
-    <>
-      <button onClick={changePlayAll}>{isPlayAll ? "Halt" : "Play all"}</button>
-      <button onClick={changePlayOnboards}>{isPlayOnboards ? "Halt onboards" : "Play onboards"}</button>
-    </>
+    <div className="flex flex-row justify-start justify-items-center py-2 h-[5%] bg-black">
+      <button type="button" class="shrink-0 inline-block px-4 py-2 mx-4 bg-gray-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-700 hover:shadow-lg focus:bg-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-800 active:shadow-lg transition duration-150 ease-in-out" onClick={changePlayAll}>
+        {isPlayAll ? <FaPause class="inline-block mx-1 align-baseline"/> : <FaPlay class="inline-block mx-1 align-baseline"/>} All
+      </button>
+      <button type="button" class="shrink-0 inline-block px-4 py-2 mx-4 bg-gray-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-700 hover:shadow-lg focus:bg-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-800 active:shadow-lg transition duration-150 ease-in-out" onClick={changePlayOnboards}>
+        {isPlayOnboards ? <FaPause class="inline-block mx-1 align-baseline"/> : <FaPlay class="inline-block mx-1 align-baseline"/>} Onboards
+      </button>
+    </div>
     )
 }
 
+
+
 export default Control;
 
-/*
-<button onClick={muteAll}>Mute all</button>
-<button onClick={muteOnboards}>Mute onboards</button>
-*/
