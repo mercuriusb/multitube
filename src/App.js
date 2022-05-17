@@ -19,7 +19,7 @@ function App() {
     "https://www.youtube.com/watch?v=I2zzQhUkA5U", 
     "https://www.youtube.com/watch?v=W_yTiO_hrDg", 
     "https://www.youtube.com/watch?v=IQ3ZQ-yrSwk", 
-    "https://www.youtube.com/watch?v=znZWz7Evjls"];
+  "https://www.youtube.com/watch?v=znZWz7Evjls"];
 
   var initPlayState = []
   var initVolumeState = []  
@@ -30,12 +30,13 @@ function App() {
   initVolumeState[0] = 1.0
 
   const [playState, setPlayState] = useState(initPlayState);
-  const [volumeState, setVolumeState] = useState(initVolumeState);
+  const [volumeState] = useState(initVolumeState);
+  const [onboardsOnly, setOnboardsOnly] = useState(false);
 
   return (
     <div className="App h-full min-h-full">
-      <Control playState={playState} setPlayState={setPlayState} volumeState={volumeState} setVolumeState={setVolumeState} />
-      <Grid urls={urls} playState={playState} setPlayState={setPlayState} volumeState={volumeState} setVolumeState={setVolumeState} />
+      <Control playState={playState} setPlayState={setPlayState}  onboardsOnly={onboardsOnly} setOnboardsOnly={setOnboardsOnly}/>
+      <Grid urls={urls} playState={playState} setPlayState={setPlayState} volumeState={volumeState} onboardsOnly={onboardsOnly} />
     </div>
   );
 }
