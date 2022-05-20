@@ -904,7 +904,7 @@ function Grid({urls,playState,setPlayState,volumeState,onboardsOnly,gridMode}) {
     </div>
   )
 
-  if(gridMode === -1){
+  if(gridMode < 0 &&  gridMode > -2){
     return grids[playState.length -1];
   }else if(gridMode < -1){
     return obgrids[playState.length -1];
