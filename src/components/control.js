@@ -79,7 +79,7 @@ function Control({ urls,setUrls,playState, setPlayState, setGridMode,refs}) {
 
   const changeGerman = () => {
     let temp = [...urls]
-    temp[0].url = "https://www.youtube.com/watch?v=IQ3ZQ-yrSwk"
+    temp[0].url = "https://www.youtube.com/watch?v=fauERpVgBVc"
     setUrls(temp)
     seekToEnd()
   }

@@ -5,21 +5,21 @@ import Control from "./components/control";
 
 function App() {
   const [urls,setUrls] = useState([
-    {"url":"https://www.youtube.com/watch?v=IQ3ZQ-yrSwk","desc":"Main"}, 
-    {"url":"https://www.youtube.com/watch?v=hiFPS4eq21I","desc":"Cam 1"}, 
-    {"url":"https://www.youtube.com/watch?v=mOd9btU7cl8","desc":"Cam 2"}, 
-    {"url":"https://www.youtube.com/watch?v=0pmsIOzOoqA","desc":"Cam 3"}, 
-    {"url":"https://www.youtube.com/watch?v=9krEtFyv3K4","desc":"Cam 4"}, 
-    {"url":"https://www.youtube.com/watch?v=IQySD-nFirQ","desc":"Cam 5"}, 
-    {"url":"https://www.youtube.com/watch?v=rUd2l2mvCWY&","desc":"Cam 6"}, 
-    {"url":"https://www.youtube.com/watch?v=OLkHtyQU9KM","desc":"Cam 7"}, 
-    {"url":"https://www.youtube.com/watch?v=znZWz7Evjls","desc":"Cam 8"}, 
-    {"url":"https://www.youtube.com/watch?v=lRHSlNUYo_M","desc":"Cam 9"}, 
-    {"url":"https://www.youtube.com/watch?v=fbfjtcG9_wk","desc":"Cam 10"}, 
-    {"url":"https://www.youtube.com/watch?v=I2zzQhUkA5U","desc":"Cam 11"}, 
-    {"url":"https://www.youtube.com/watch?v=W_yTiO_hrDg","desc":"Cam 12"}, 
-    {"url":"https://www.youtube.com/watch?v=IQ3ZQ-yrSwk","desc":"Cam 13"}, 
-    {"url":"https://www.youtube.com/watch?v=znZWz7Evjls","desc":"Cam 14"}]);
+    {"url":"https://www.youtube.com/watch?v=KQK6KO-MhFE","desc":"Main"}, 
+    {"url":"https://www.youtube.com/watch?v=JaZBWqAmgfQ","desc":"Pitlane"}/*, 
+    {"url":"https://www.youtube.com/watch?v=IqruW4FW0rM","desc":"Onboard #160 | KTM X-BOW GTX | Teichmann Racing"}, 
+    {"url":"https://www.youtube.com/watch?v=sydhn5DZh4c","desc":"Onboard #33 | Porsche 911 GT3 R | Falken Motorsports"}, 
+    {"url":"https://www.youtube.com/watch?v=cemGzGeo4Hs","desc":"Onboard #5 | Audi R8 LMS GT3 | Scherer Sport Team Phoenix"}, 
+    {"url":"https://www.youtube.com/watch?v=nUWd6IIJ0F8","desc":"Onboard #831 | Hyundai i30 N TCR | Hyundai Motorsport N "}, 
+    {"url":"https://www.youtube.com/watch?v=ZWvFkdjh_ko","desc":"Onboard #3 | Mercedes-AMG GT3 | Mercedes-AMG Team Getspeed"}, 
+    {"url":"https://www.youtube.com/watch?v=Sn00OFqkX8k","desc":"Onboard #15 | Audi R8 LMS GT3 | Audi Sport Team Phoenix"}, 
+    {"url":"https://www.youtube.com/watch?v=xsF3QBpvIvE","desc":"Onboard #1 | Porsche 911 GT3 R | Manthey-Racing"}, 
+    {"url":"https://www.youtube.com/watch?v=pPb7QaVWTrM","desc":"Onboard #27 | Porsche 911 GT3 R | Toksport WRT"}, 
+    {"url":"","desc":"Cam 10"}, 
+    {"url":"","desc":"Cam 11"}, 
+    {"url":"","desc":"Cam 12"}, 
+    {"url":"","desc":"Cam 13"}, 
+  {"url":"","desc":"Cam 14"}*/]);
 
   var initPlayState = []
   var initVolumeState = []  
@@ -33,7 +33,7 @@ function App() {
 
   const [playState, setPlayState] = useState(initPlayState);
   const [volumeState] = useState(initVolumeState);
-  const [onboardsOnly, setOnboardsOnly] = useState(false);
+  //const [onboardsOnly, setOnboardsOnly] = useState(false);
   const [gridMode,setGridMode]= useState(-1)
 
 
