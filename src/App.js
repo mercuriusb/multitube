@@ -4,7 +4,7 @@ import Grid from "./components/grid";
 import Control from "./components/control";
 
 function App() {
-  const urls = [
+  const [urls,setUrls] = useState([
     {"url":"https://www.youtube.com/watch?v=IQ3ZQ-yrSwk","desc":"Main"}, 
     {"url":"https://www.youtube.com/watch?v=hiFPS4eq21I","desc":"Cam 1"}, 
     {"url":"https://www.youtube.com/watch?v=mOd9btU7cl8","desc":"Cam 2"}, 
@@ -19,7 +19,7 @@ function App() {
     {"url":"https://www.youtube.com/watch?v=I2zzQhUkA5U","desc":"Cam 11"}, 
     {"url":"https://www.youtube.com/watch?v=W_yTiO_hrDg","desc":"Cam 12"}, 
     {"url":"https://www.youtube.com/watch?v=IQ3ZQ-yrSwk","desc":"Cam 13"}, 
-    {"url":"https://www.youtube.com/watch?v=znZWz7Evjls","desc":"Cam 14"}];
+    {"url":"https://www.youtube.com/watch?v=znZWz7Evjls","desc":"Cam 14"}]);
 
   var initPlayState = []
   var initVolumeState = []  
@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div className="App h-full min-h-full">
-      <Control urls={urls} playState={playState} setPlayState={setPlayState}  onboardsOnly={onboardsOnly} setOnboardsOnly={setOnboardsOnly} gridMode={gridMode} setGridMode={setGridMode}/>
+      <Control urls={urls} setUrls={setUrls} playState={playState} setPlayState={setPlayState}  onboardsOnly={onboardsOnly} setOnboardsOnly={setOnboardsOnly} gridMode={gridMode} setGridMode={setGridMode}/>
       <Grid urls={urls} playState={playState} setPlayState={setPlayState} volumeState={volumeState} onboardsOnly={onboardsOnly} gridMode={gridMode}/>
     </div>
   );
