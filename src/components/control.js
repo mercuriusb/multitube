@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { FaPause, FaPlay } from "react-icons/fa";
 
-function Control({ urls,setUrls,playState, setPlayState, onboardsOnly, setOnboardsOnly,gridMode,setGridMode}) {
+function Control({ urls,setUrls,playState, setPlayState, setGridMode,refs}) {
   const onboardsButtonClassDefault = "shrink-0 inline-block px-4 py-2 mx-4 bg-gray-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-700 hover:shadow-lg focus:bg-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-800 active:shadow-lg transition duration-150 ease-in-out"
   const [isPlayAll, setIsPlayAll] = useState(playState.every((it) => it === true));
   const [isPlayOnboards, setIsPlayOnboards] = useState((it, index) => index === 0 || it === true);
@@ -26,7 +26,9 @@ function Control({ urls,setUrls,playState, setPlayState, onboardsOnly, setOnboar
       newPlayState.push(!isPlayAll);
     }
     setPlayState(newPlayState);
+    seekToEnd()
   };
+
   const changePlayOnboards = () => {
     var newPlayState = [];
     for (var i = 0; i < playState.length; i++) {
@@ -34,11 +36,23 @@ function Control({ urls,setUrls,playState, setPlayState, onboardsOnly, setOnboar
     }
     newPlayState[0] = playState[0];
     setPlayState(newPlayState);
+    seekToEnd()
   };
 
+  function seekToEnd(){
+    for (var i = 0; i < refs.length; i++) {
+      let player = refs[i].current
+      if(player != null){
+        player.seekTo(1)
+      }
+    }
+  }
+
+  /*
   const changeOnboardsOnly = () => {
     setOnboardsOnly(!onboardsOnly);
   };
+*/
 
   const changeGridMode = (event) => {
     let temp = parseInt(event.target.value)
@@ -50,10 +64,11 @@ function Control({ urls,setUrls,playState, setPlayState, onboardsOnly, setOnboar
       var newPlayState = [...playState]
       newPlayState[temp] = true;
       setPlayState(newPlayState);
-
+      seekToEnd()
     }else{
       console.log("grid mode <= 0: " + temp )
       setOnboardsButtonClass(onboardsButtonClassDefault)
+      seekToEnd()
     }
   
   }
@@ -66,12 +81,14 @@ function Control({ urls,setUrls,playState, setPlayState, onboardsOnly, setOnboar
     let temp = [...urls]
     temp[0].url = "https://www.youtube.com/watch?v=IQ3ZQ-yrSwk"
     setUrls(temp)
+    seekToEnd()
   }
 
   const changeEnglish = () => {
     let temp = [...urls]
     temp[0].url = "https://www.youtube.com/watch?v=KQK6KO-MhFE"
     setUrls(temp)
+    seekToEnd()
   }
 
   return (
@@ -83,14 +100,6 @@ function Control({ urls,setUrls,playState, setPlayState, onboardsOnly, setOnboar
         {isPlayOnboards ? <FaPause className="inline-block mx-1 align-baseline" /> : <FaPlay className="inline-block mx-1 align-baseline" />} Onboard cams
       </button>
 
-      {false && playState.length > 1 && (
-        <div className="form-group form-check text-center px-4 py-2">
-          <input className="form-check-input accent-white h-4 w-4 border border-gray-500 rounded-sm bg-black checked:bg-white checked:border-b-gray-500 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" value="" id="flexCheckChecked" onChange={changeOnboardsOnly} />
-          <label className="form-check-label inline-block text-white" htmlFor="flexCheckChecked">
-            Onboard cams only
-          </label>
-        </div>
-      )}
 
       <div className="flex justify-center">
         <div className="mb-3 xl:w-96">
@@ -102,10 +111,10 @@ function Control({ urls,setUrls,playState, setPlayState, onboardsOnly, setOnboar
         </div>
       </div>
       <div className="ml-auto mr-5 mt-2"> 
-        <a href="https://livetiming24.azurewebsites.net/events/50/results" target="_blank" className="text-white ">Live timing</a>
-        <a href="https://www.24h-rennen.de/en/participants-2022" target="_blank" className="text-white ml-10">Entry list</a>
-        <a className="text-white ml-10" onClick={changeEnglish}>en</a>
-        <a className="text-white ml-1" onClick={changeGerman}>de</a>
+        <a href="https://livetiming24.azurewebsites.net/events/50/results" target="_blank" rel="noreferrer" className="text-white ">Live timing</a>
+        <a href="https://www.24h-rennen.de/en/participants-2022" target="_blank" rel="noreferrer" className="text-white ml-10">Entry list</a>
+        <button className="text-white ml-10" onClick={changeEnglish}>en</button>
+        <button className="text-white ml-1" onClick={changeGerman}>de</button>
       </div>
     </div>
   );

@@ -23,9 +23,11 @@ function App() {
 
   var initPlayState = []
   var initVolumeState = []  
+  var refs = []
   for(var i=0; i < urls.length; i++){
     initPlayState.push(false)
     initVolumeState.push(0.0)
+    refs.push(React.createRef())
   }
   initVolumeState[0] = 1.0
 
@@ -37,8 +39,8 @@ function App() {
 
   return (
     <div className="App h-full min-h-full">
-      <Control urls={urls} setUrls={setUrls} playState={playState} setPlayState={setPlayState}  onboardsOnly={onboardsOnly} setOnboardsOnly={setOnboardsOnly} gridMode={gridMode} setGridMode={setGridMode}/>
-      <Grid urls={urls} playState={playState} setPlayState={setPlayState} volumeState={volumeState} onboardsOnly={onboardsOnly} gridMode={gridMode}/>
+      <Control urls={urls} setUrls={setUrls} playState={playState} setPlayState={setPlayState} setGridMode={setGridMode} refs={refs}/>
+      <Grid urls={urls} playState={playState} setPlayState={setPlayState} volumeState={volumeState} gridMode={gridMode} refs={refs}/>
     </div>
   );
 }
