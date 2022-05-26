@@ -26,7 +26,7 @@ function Control({ urls,setUrls,playState, setPlayState, setGridMode,refs}) {
       newPlayState.push(!isPlayAll);
     }
     setPlayState(newPlayState);
-    seekToEnd()
+    //seekToEnd()
   };
 
   const changePlayOnboards = () => {
@@ -36,9 +36,10 @@ function Control({ urls,setUrls,playState, setPlayState, setGridMode,refs}) {
     }
     newPlayState[0] = playState[0];
     setPlayState(newPlayState);
-    seekToEnd()
+    //seekToEnd()
   };
 
+  /*
   function seekToEnd(){
     for (var i = 0; i < refs.length; i++) {
       let player = refs[i].current
@@ -47,6 +48,7 @@ function Control({ urls,setUrls,playState, setPlayState, setGridMode,refs}) {
       }
     }
   }
+  */
 
   /*
   const changeOnboardsOnly = () => {
@@ -64,11 +66,11 @@ function Control({ urls,setUrls,playState, setPlayState, setGridMode,refs}) {
       var newPlayState = [...playState]
       newPlayState[temp] = true;
       setPlayState(newPlayState);
-      seekToEnd()
+      //seekToEnd()
     }else{
       console.log("grid mode <= 0: " + temp )
       setOnboardsButtonClass(onboardsButtonClassDefault)
-      seekToEnd()
+      //seekToEnd()
     }
   
   }
@@ -81,14 +83,14 @@ function Control({ urls,setUrls,playState, setPlayState, setGridMode,refs}) {
     let temp = [...urls]
     temp[0].url = "https://www.youtube.com/watch?v=fauERpVgBVc"
     setUrls(temp)
-    seekToEnd()
+    //seekToEnd()
   }
 
   const changeEnglish = () => {
     let temp = [...urls]
     temp[0].url = "https://www.youtube.com/watch?v=KQK6KO-MhFE"
     setUrls(temp)
-    seekToEnd()
+    //seekToEnd()
   }
 
   return (
