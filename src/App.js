@@ -6,7 +6,7 @@ import Control from "./components/control";
 function App() {
   const [urls,setUrls] = useState([
     {"url":"https://www.youtube.com/watch?v=KQK6KO-MhFE","desc":"Main"}, 
-    {"url":"https://www.youtube.com/watch?v=JaZBWqAmgfQ","desc":"Pitlane"}/*, 
+    {"url":"https://www.youtube.com/watch?v=JaZBWqAmgfQ","desc":"Pitlane"}, 
     {"url":"https://www.youtube.com/watch?v=IqruW4FW0rM","desc":"Onboard #160 | KTM X-BOW GTX | Teichmann Racing"}, 
     {"url":"https://www.youtube.com/watch?v=sydhn5DZh4c","desc":"Onboard #33 | Porsche 911 GT3 R | Falken Motorsports"}, 
     {"url":"https://www.youtube.com/watch?v=cemGzGeo4Hs","desc":"Onboard #5 | Audi R8 LMS GT3 | Scherer Sport Team Phoenix"}, 
@@ -14,7 +14,7 @@ function App() {
     {"url":"https://www.youtube.com/watch?v=ZWvFkdjh_ko","desc":"Onboard #3 | Mercedes-AMG GT3 | Mercedes-AMG Team Getspeed"}, 
     {"url":"https://www.youtube.com/watch?v=Sn00OFqkX8k","desc":"Onboard #15 | Audi R8 LMS GT3 | Audi Sport Team Phoenix"}, 
     {"url":"https://www.youtube.com/watch?v=xsF3QBpvIvE","desc":"Onboard #1 | Porsche 911 GT3 R | Manthey-Racing"}, 
-    {"url":"https://www.youtube.com/watch?v=pPb7QaVWTrM","desc":"Onboard #27 | Porsche 911 GT3 R | Toksport WRT"}, 
+    {"url":"https://www.youtube.com/watch?v=pPb7QaVWTrM","desc":"Onboard #27 | Porsche 911 GT3 R | Toksport WRT"}/*, 
     {"url":"","desc":"Cam 10"}, 
     {"url":"","desc":"Cam 11"}, 
     {"url":"","desc":"Cam 12"}, 
