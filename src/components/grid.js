@@ -964,7 +964,7 @@ function Grid({urls,playState,setPlayState,volumeState,gridMode,refs}) {
     return obgrids[playState.length -1];
   }else{
     return (
-    <div className="bg-black gap-1 h-[95%] grid grid-cols-1">
+    <div className="bg-black gap-1 flex-1 grid grid-cols-1">
       <div className="bg-black">
         <ReactPlayer id="0" url={urls[gridMode].url} width="100%" height="100%" volume={volumeState[gridMode]} playing={playState[gridMode]} controls={true} onPlay={() => handlePlayStateChange(0,true)} onPause={() => handlePlayStateChange(0,false)}/>
       </div>
