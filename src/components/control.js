@@ -112,7 +112,7 @@ function Control({ urls,setUrls,playState, setPlayState, setGridMode,refs}) {
         <a href="https://livetiming24.azurewebsites.net/events/50/results" target="_blank" rel="noreferrer" className="text-white ml-5">Live timing</a>
         <a href="https://www.24h-rennen.de/en/participants-2022" target="_blank" rel="noreferrer" className="text-white ml-5">Entry list</a>
         <button className="text-white ml-10" onClick={changeEnglish}>en</button>
-        <button className="text-white ml-1" onClick={changeGerman}>de</button>
+        <button className="text-white ml-2" onClick={changeGerman}>de</button>
       </div>
     </div>
   );
