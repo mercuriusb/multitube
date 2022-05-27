@@ -99,8 +99,8 @@ function Control({ urls,setUrls,playState, setPlayState, setGridMode,refs}) {
 
 
       <div className="flex justify-center">
-        <div className="mb-0 xl:w-46">
-          <select className="form-select appearance-none block w-full px-3 py-0.5 text-base font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example" defaultValue="-1" onChange={changeGridMode}>
+        <div className="mb-0 xl:w-96">
+          <select class="form-select form-select-sm appearance-none block w-full px-2 py-0.5 text-sm font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label=".form-select-sm example" defaultValue="-1" onChange={changeGridMode}>
             <option value="-1">All</option>
             <option value="-2">Onboards</option>
             {optionItems}
@@ -108,7 +108,7 @@ function Control({ urls,setUrls,playState, setPlayState, setGridMode,refs}) {
         </div>
       </div>
       <div className="ml-auto mr-5 mt-2"> 
-        <a href="https://www.youtube.com/watch?v=zj_--XTYBbM" target="_blank" rel="noreferrer" className="text-white ">GPS Auge</a>
+        <a href="https://www.youtube.com/watch?v=zj_--XTYBbM" target="_blank" rel="noreferrer" className="text-white ">GPS</a>
         <a href="https://livetiming24.azurewebsites.net/events/50/results" target="_blank" rel="noreferrer" className="text-white ml-5">Live timing</a>
         <a href="https://www.24h-rennen.de/en/participants-2022" target="_blank" rel="noreferrer" className="text-white ml-5">Entry list</a>
         <button className="text-white ml-10" onClick={changeEnglish}>en</button>
