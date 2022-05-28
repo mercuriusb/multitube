@@ -109,7 +109,7 @@ function Control({ urls,setUrls,playState, setPlayState, setGridMode,refs}) {
       </div>
       <div className="ml-auto mr-5 mt-2"> 
         <a href="https://www.youtube.com/watch?v=zj_--XTYBbM" target="_blank" rel="noreferrer" className="text-white ">GPS</a>
-        <a href="https://livetiming24.azurewebsites.net/events/50/results" target="_blank" rel="noreferrer" className="text-white ml-5">Live timing</a>
+        <a href="https://timing71.org/s/n24" target="_blank" rel="noreferrer" className="text-white ml-5">Live timing</a>
         <a href="https://www.24h-rennen.de/en/participants-2022" target="_blank" rel="noreferrer" className="text-white ml-5">Entry list</a>
         <button className="text-white ml-10" onClick={changeEnglish}>en</button>
         <button className="text-white ml-2" onClick={changeGerman}>de</button>
