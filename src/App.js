@@ -16,7 +16,7 @@ function App() {
     //{"url":"https://www.youtube.com/watch?v=pPb7QaVWTrM","desc":"Onboard #27 | Porsche 911 GT3 R | Toksport WRT"},
     {"url":"https://www.youtube.com/watch?v=sydhn5DZh4c","desc":"Onboard #33 | Porsche 911 GT3 R | Falken Motorsports"}, 
     //{"url":"https://www.youtube.com/watch?v=Leq41aBGhAE","desc":"Onboard #44 | Porsche 911 GT3 R | Falken Motorsports"}, 
-    {"url":"https://www.youtube.com/watch?v=cgs3tF-dN78","desc":"Onboard #72 | BMW M4 GT3 | BMW Junior Team"},
+    //{"url":"https://www.youtube.com/watch?v=cgs3tF-dN78","desc":"Onboard #72 | BMW M4 GT3 | BMW Junior Team"},
     //{"url":"https://www.youtube.com/watch?v=FoYaUBPYZow","desc":"Onboard #98 | BMW M4 GT3 | ROWE Racing"}, 
     //{"url":"https://www.youtube.com/watch?v=IqruW4FW0rM","desc":"Onboard #160 | KTM X-BOW GTX | Teichmann Racing"}, 
     {"url":"https://www.youtube.com/watch?v=EmCbafg0tZE","desc":"Onboard #162 | KTM X-BOW GTX | Teichmann Racing"}, 
