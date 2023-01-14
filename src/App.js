@@ -5,8 +5,9 @@ import Control from "./components/control";
 
 function App() {
   const [urls,setUrls] = useState([
-/*    {"url":"https://www.youtube.com/watch?v=FVjTSBefDjU","desc":"Main"}, 
-    {"url":"https://www.youtube.com/watch?v=xsF3QBpvIvE","desc":"Onboard #1 | Porsche 911 GT3 R | Manthey-Racing"}, 
+    {"url":"https://www.youtube.com/watch?v=gA2z9YT14HU","desc":"Dubai 24h"}, 
+    {"url":"https://www.youtube.com/watch?v=IJgY698nD4k","desc":"#2 | Le Mans Virtual"}
+    /*, 
     {"url":"https://www.youtube.com/watch?v=ZWvFkdjh_ko","desc":"Onboard #3 | Mercedes-AMG GT3 | Mercedes-AMG Team Getspeed"}, 
     {"url":"https://www.youtube.com/watch?v=cemGzGeo4Hs","desc":"Onboard #5 | Audi R8 LMS GT3 | Scherer Sport Team Phoenix"}, 
     {"url":"https://www.youtube.com/watch?v=eC2xP2B8Bn8","desc":"Onboard #12 | Mercedes-AMG GT3 | MercedesAMG Team Bilstein"}, 
