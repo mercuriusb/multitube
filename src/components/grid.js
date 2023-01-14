@@ -27,7 +27,7 @@ function Grid({urls,playState,setPlayState,volumeState,gridMode,refs}) {
         <div className="bg-black row-span-4 col-span-1">
           <ReactPlayer id="0" ref={refs[0]} url={urls[[0]].url} width="100%" height="100%" volume={volumeState[0]} playing={playState[0]} controls={true} onPlay={() => handlePlayStateChange(0,true)} onPause={() => handlePlayStateChange(0,false)}/>
         </div>
-        <div className="bg-black">
+        <div className="bg-black row-span-4 col-span-1">
           <ReactPlayer id="0" ref={refs[1]} url={urls[[1]].url} width="100%" height="100%" volume={volumeState[1]} playing={playState[1]} controls={true} onPlay={() => handlePlayStateChange(0,true)} onPause={() => handlePlayStateChange(0,false)}/>
         </div>
       </div>
