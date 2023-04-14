@@ -108,9 +108,8 @@ function Control({ urls, setUrls, playState, setPlayState, setGridMode, refs }) 
         </div>
       </div>
       <div className="ml-auto mr-5 mt-2">
-        <a href="https://www.youtube.com/watch?v=zj_--XTYBbM" target="_blank" rel="noreferrer" className="text-white ">GPS</a>
-        <a href="https://timing71.org/s/n24" target="_blank" rel="noreferrer" className="text-white ml-5">Live timing</a>
-        <a href="https://www.24h-rennen.de/en/participants-2022" target="_blank" rel="noreferrer" className="text-white ml-5">Entry list</a>
+        <a href="https://livetiming.azurewebsites.net/event=20?config=w5" target="_blank" rel="noreferrer" className="text-white ml-5">Live timing</a>
+        <a href="https://www.nuerburgring-langstrecken-serie.de/wp-content/uploads/ergebnisse/2023-04-01s.pdf" target="_blank" rel="noreferrer" className="text-white ml-5">Entry list</a>
         <button className="text-white ml-10" onClick={changeEnglish}>en</button>
         <button className="text-white ml-2" onClick={changeGerman}>de</button>
       </div>
@@ -119,6 +118,11 @@ function Control({ urls, setUrls, playState, setPlayState, setGridMode, refs }) 
 }
 
 export default Control;
+
+/*
+        <a href="https://www.youtube.com/watch?v=zj_--XTYBbM" target="_blank" rel="noreferrer" className="text-white ">GPS</a>
+
+*/
 
 /*
             <option value="-1" selected>urls[0].desc</option>
