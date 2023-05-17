@@ -5,7 +5,7 @@ import Grid from "./components/grid";
 
 function App() {
   const enURL = "https://www.youtube.com/watch?v=X6_YvHzlRIg"
-  const deURL = ""
+  const deURL = "https://www.youtube.com/watch?v=nfl7PKjYKqI"
   const [urls, setUrls] = useState([
     { "url": enURL, "desc": "Main" },
     { "url": "https://www.youtube.com/watch?v=g3qM7KlaV7w", "desc": "#01" },
@@ -41,7 +41,7 @@ function App() {
 
   return (
     <div className="App h-full min-h-full flex flex-col bg-black">
-      <Control urls={urls} setUrls={setUrls} playState={playState} setPlayState={setPlayState} setGridMode={setGridMode} refs={refs} />
+      <Control urls={urls} setUrls={setUrls} playState={playState} setPlayState={setPlayState} setGridMode={setGridMode} refs={refs} enURL={enURL} deURL={deURL}/>
       <Grid urls={urls} playState={playState} setPlayState={setPlayState} volumeState={volumeState} gridMode={gridMode} refs={refs} />
     </div>
   );
