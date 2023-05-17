@@ -76,14 +76,14 @@ function Control({ urls, setUrls, playState, setPlayState, setGridMode, refs }) 
 
   const changeGerman = () => {
     let temp = [...urls]
-    temp[0].url = "https://www.youtube.com/watch?v=89na9eg0hWY"
+    temp[0].url = "https://www.youtube.com/watch?v=nfl7PKjYKqI"
     setUrls(temp)
     //seekToEnd()
   }
 
   const changeEnglish = () => {
     let temp = [...urls]
-    temp[0].url = "https://www.youtube.com/watch?v=wnSaZdikWB0"
+    temp[0].url = "https://www.youtube.com/watch?v=X6_YvHzlRIg"
     setUrls(temp)
     //seekToEnd()
   }
