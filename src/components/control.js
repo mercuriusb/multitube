@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { FaPause, FaPlay } from "react-icons/fa";
 
-function Control({ urls, setUrls, playState, setPlayState, setGridMode, refs }) {
+function Control({ urls, setUrls, playState, setPlayState, setGridMode, refs,enURL,deURL }) {
   const onboardsButtonClassDefault = "shrink-0 inline-block px-4 py-2 mx-4 bg-gray-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-700 hover:shadow-lg focus:bg-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-800 active:shadow-lg transition duration-150 ease-in-out"
   const [isPlayAll, setIsPlayAll] = useState(playState.every((it) => it === true));
   const [isPlayOnboards, setIsPlayOnboards] = useState((it, index) => index === 0 || it === true);
@@ -76,14 +76,14 @@ function Control({ urls, setUrls, playState, setPlayState, setGridMode, refs }) 
 
   const changeGerman = () => {
     let temp = [...urls]
-    temp[0].url = "https://www.youtube.com/watch?v=nfl7PKjYKqI"
+    temp[0].url = deURL
     setUrls(temp)
     //seekToEnd()
   }
 
   const changeEnglish = () => {
     let temp = [...urls]
-    temp[0].url = "https://www.youtube.com/watch?v=X6_YvHzlRIg"
+    temp[0].url = enURL
     setUrls(temp)
     //seekToEnd()
   }
