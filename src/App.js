@@ -4,8 +4,10 @@ import Control from "./components/control";
 import Grid from "./components/grid";
 
 function App() {
+  const enURL = "https://www.youtube.com/watch?v=X6_YvHzlRIg"
+  const deURL = ""
   const [urls, setUrls] = useState([
-    { "url": "https://www.youtube.com/watch?v=X6_YvHzlRIg", "desc": "Main" },
+    { "url": enURL, "desc": "Main" },
     { "url": "https://www.youtube.com/watch?v=g3qM7KlaV7w", "desc": "#01" },
     { "url": "https://www.youtube.com/watch?v=04E37ZIkHLY", "desc": "#22" },
     { "url": "https://www.youtube.com/watch?v=wiffjEBuUzU", "desc": "#03" },
