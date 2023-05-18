@@ -5,12 +5,12 @@ import Grid from "./components/grid";
 
 function App() {
   //const enURL = "https://www.youtube.com/watch?v=X6_YvHzlRIg" // Quali 1
-  const enURL = "https://www.youtube.com/watch?v=3FbwJHoFYN8" //Quali 2
-  //const enURL = "https://www.youtube.com/watch?v=NDR9-XI9BFU" //Quali 3
+  //const enURL = "https://www.youtube.com/watch?v=3FbwJHoFYN8" //Quali 2
+  const enURL = "https://www.youtube.com/watch?v=NDR9-XI9BFU" //Quali 3
   //const enURL = "https://www.youtube.com/watch?v=1ZDSbR3Dc8E" //Top Quali
   //const enURL = "https://www.youtube.com/watch?v=-QamjyNCypg" //race
-  const deURL = "https://www.youtube.com/watch?v=nfl7PKjYKqI" // Quali 1 & 2
-  //const deURL = "https://www.youtube.com/watch?v=6-i_d_B2gjk" //Quali 3/Top Quali 
+  //const deURL = "https://www.youtube.com/watch?v=nfl7PKjYKqI" // Quali 1 & 2
+  const deURL = "https://www.youtube.com/watch?v=6-i_d_B2gjk" //Quali 3/Top Quali 
   //const deURL = "https://www.youtube.com/watch?v=6-i_d_B2gjk" //Quali 3/Top Quali 
   //const deURL = "https://www.youtube.com/watch?v=XMOl_22qxEs" //race  
   const [urls, setUrls] = useState([
