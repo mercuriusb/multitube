@@ -28,7 +28,8 @@ function App() {
     { "url": "https://www.youtube.com/watch?v=51edyVGnUfo", "desc": "#911" },
     { "url": "https://www.youtube.com/watch?v=8ZlUkUcawSI", "desc": "#40" },
     { "url": "https://www.youtube.com/watch?v=Z_kswkwhVsI", "desc": "#272" },
-    { "url": "https://www.youtube.com/watch?v=X56MGNw8EWQ", "desc": "#830" }
+    { "url": "https://www.youtube.com/watch?v=X56MGNw8EWQ", "desc": "#830" },
+    { "url": "https://www.youtube.com/watch?v=SIOowztnCNI", "desc": "GPS" },    
   ]);
 
   let initPlayState = []
