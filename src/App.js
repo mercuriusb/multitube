@@ -15,7 +15,7 @@ function App() {
   const deURL = "https://www.youtube.com/watch?v=XMOl_22qxEs" //race  
   const [urls, setUrls] = useState([
     { "url": enURL, "desc": "Main" },
-    { "url": "https://www.youtube.com/watch?v=g3qM7KlaV7w", "desc": "#01" },
+    { "url": "https://www.youtube.com/watch?v=k6dcRFW-Zrc", "desc": "Pitlane" },
     { "url": "https://www.youtube.com/watch?v=04E37ZIkHLY", "desc": "#22" },
     //{ "url": "https://www.youtube.com/watch?v=wiffjEBuUzU", "desc": "#03" },
     { "url": "https://www.youtube.com/watch?v=hSDzxqgW0gs", "desc": "#04" },
@@ -25,7 +25,7 @@ function App() {
     { "url": "https://www.youtube.com/watch?v=uFRUL8WtODM", "desc": "#44" },
     { "url": "https://www.youtube.com/watch?v=SKyveaplOkY", "desc": "#96" },
     { "url": "https://www.youtube.com/watch?v=V0V3TKdnY9Q", "desc": "#98" },
-    { "url": "https://www.youtube.com/watch?v=51edyVGnUfo", "desc": "#911" },
+    //{ "url": "https://www.youtube.com/watch?v=51edyVGnUfo", "desc": "#911" },
     { "url": "https://www.youtube.com/watch?v=8ZlUkUcawSI", "desc": "#40" },
     { "url": "https://www.youtube.com/watch?v=Z_kswkwhVsI", "desc": "#272" },
     { "url": "https://www.youtube.com/watch?v=X56MGNw8EWQ", "desc": "#830" },
