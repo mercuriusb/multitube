@@ -108,8 +108,10 @@ function Control({ urls, setUrls, playState, setPlayState, setGridMode, refs,enU
         </div>
       </div>
       <div className="ml-auto mr-5 mt-2">
-        <a href="https://livetiming.azurewebsites.net/event=50" target="_blank" rel="noreferrer" className="text-white ml-5">Live timing</a>
-        <a href="https://www.24h-rennen.de/teilnehmer/" target="_blank" rel="noreferrer" className="text-white ml-5">Entry list</a>
+        <a href="https://www.24h-rennen.de/en/schedule/" target="_blank" rel="noreferrer" className="text-white ml-5">Schedule</a>
+        <a href="https://www.youtube.com/watch?v=skeuVsHVauQ" target="_blank" rel="noreferrer" className="text-white ml-5">GPS</a>
+        <a href="https://livetiming.azurewebsites.net/event=50?config=w3" target="_blank" rel="noreferrer" className="text-white ml-5">Live timing</a>
+        <a href="https://www.24h-rennen.de/en/participants/" target="_blank" rel="noreferrer" className="text-white ml-5">Entry list</a>
         <button className="text-white ml-10" onClick={changeEnglish}>en</button>
         <button className="text-white ml-2" onClick={changeGerman}>de</button>
       </div>
@@ -118,13 +120,3 @@ function Control({ urls, setUrls, playState, setPlayState, setGridMode, refs,enU
 }
 
 export default Control;
-
-/*
-        <a href="https://www.youtube.com/watch?v=zj_--XTYBbM" target="_blank" rel="noreferrer" className="text-white ">GPS</a>
-
-*/
-
-/*
-            <option value="-1" selected>urls[0].desc</option>
-            <option value="-2">Onboards urls[1].desc</option>
-*/
