@@ -11,6 +11,10 @@ function Grid({urls,playState,setPlayState,volumeState,gridMode,refs}) {
   }
   const grids = []
 
+  for (let i = 0; i < urls.length; i++) {
+      console.log("url " + i + ": " + urls[i].url);
+  }
+
   if(urls.length > 0){
     grids.push( 
       <div className="bg-black gap-1 h-[95%] grid grid-cols-1">

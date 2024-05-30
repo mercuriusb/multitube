@@ -5,15 +5,15 @@ import Grid from "./components/grid";
 
 function App() {
   const enURL = "https://www.youtube.com/watch?v=S6WUYLDJHfU&list=PL1tySj0KEznT97a73-94JSu4OoH2OZ7Oi&index=1&pp=iAQB&origin=https://racecams.pages.dev" //quali 1         30.5 12:55
-//  const enURL = "https://www.youtube.com/watch?v=m4V0P8siYAg&list=PL1tySj0KEznT97a73-94JSu4OoH2OZ7Oi&index=2&pp=iAQB" //quali 2              30.5 19:55
-//  const enURL = "https://www.youtube.com/watch?v=kYFPyX-ZL1o&list=PL1tySj0KEznT97a73-94JSu4OoH2OZ7Oi&index=3&pp=iAQB" //quali 3              31.5 13:25
-//  const enURL = "https://www.youtube.com/watch?v=dhaq3DdU_wo&list=PL1tySj0KEznT97a73-94JSu4OoH2OZ7Oi&index=4&pp=iAQB" //top quali draew      31.5 16:00
-//  const enURL = "https://www.youtube.com/watch?v=ny3aGeC5Fdg&list=PL1tySj0KEznT97a73-94JSu4OoH2OZ7Oi&index=5&pp=iAQB" //top quali            31.5 17:25
-//  const enURL = "https://www.youtube.com/watch?v=lAcLSbWhVEs&list=PL1tySj0KEznT97a73-94JSu4OoH2OZ7Oi&index=6&pp=iAQB" //race                 01.6 08:45
+//  const enURL = "https://www.youtube.com/watch?v=m4V0P8siYAg&list=PL1tySj0KEznT97a73-94JSu4OoH2OZ7Oi&index=2&pp=iAQB&origin=https://racecams.pages.dev" //quali 2              30.5 19:55
+//  const enURL = "https://www.youtube.com/watch?v=kYFPyX-ZL1o&list=PL1tySj0KEznT97a73-94JSu4OoH2OZ7Oi&index=3&pp=iAQB&origin=https://racecams.pages.dev" //quali 3              31.5 13:25
+//  const enURL = "https://www.youtube.com/watch?v=dhaq3DdU_wo&list=PL1tySj0KEznT97a73-94JSu4OoH2OZ7Oi&index=4&pp=iAQB&origin=https://racecams.pages.dev" //top quali draew      31.5 16:00
+//  const enURL = "https://www.youtube.com/watch?v=ny3aGeC5Fdg&list=PL1tySj0KEznT97a73-94JSu4OoH2OZ7Oi&index=5&pp=iAQB&origin=https://racecams.pages.dev" //top quali            31.5 17:25
+//  const enURL = "https://www.youtube.com/watch?v=lAcLSbWhVEs&list=PL1tySj0KEznT97a73-94JSu4OoH2OZ7Oi&index=6&pp=iAQB&origin=https://racecams.pages.dev" //race                 01.6 08:45
   const deURL = "https://www.youtube.com/watch?v=CyXzTK_bFSU&list=PL1tySj0KEznQaLr6cIouU7x4uNvK5qJE9&index=1&pp=iAQB&origin=https://racecams.pages.dev" //quali 1 & 2     30.5 12:55
-//  const deURL = "https://www.youtube.com/watch?v=twz1ljfcKaI&list=PL1tySj0KEznQaLr6cIouU7x4uNvK5qJE9&index=2&pp=iAQB" //quali 3 & top quali  31.5 13:25
-//  const deURL = "https://www.youtube.com/watch?v=dhaq3DdU_wo&list=PL1tySj0KEznQaLr6cIouU7x4uNvK5qJE9&index=3&pp=iAQB" //top quali draw       31.5 16:00
-//  const deURL = "https://www.youtube.com/watch?v=iFXqRazVs60&list=PL1tySj0KEznQaLr6cIouU7x4uNvK5qJE9&index=4&pp=iAQB" //race                 01.6 08:15
+//  const deURL = "https://www.youtube.com/watch?v=twz1ljfcKaI&list=PL1tySj0KEznQaLr6cIouU7x4uNvK5qJE9&index=2&pp=iAQB&origin=https://racecams.pages.dev" //quali 3 & top quali  31.5 13:25
+//  const deURL = "https://www.youtube.com/watch?v=dhaq3DdU_wo&list=PL1tySj0KEznQaLr6cIouU7x4uNvK5qJE9&index=3&pp=iAQB&origin=https://racecams.pages.dev" //top quali draw       31.5 16:00
+//  const deURL = "https://www.youtube.com/watch?v=iFXqRazVs60&list=PL1tySj0KEznQaLr6cIouU7x4uNvK5qJE9&index=4&pp=iAQB&origin=https://racecams.pages.dev" //race                 01.6 08:15
   const [urls, setUrls] = useState([
     { "key": "1",  "url": enURL, "desc": "Main" },
     { "key": "2",  "url": "https://youtu.be/knV_q1-d00I", "desc": "Pitlane" },
