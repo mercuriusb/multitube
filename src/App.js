@@ -4,8 +4,8 @@ import Control from "./components/control";
 import Grid from "./components/grid";
 
 function App() {
-  const enURL = "https://www.youtube.com/watch?v=S6WUYLDJHfU&list=PL1tySj0KEznT97a73-94JSu4OoH2OZ7Oi&index=1&pp=iAQB&origin=https://racecams.pages.dev" //quali 1         30.5 12:55
-//  const enURL = "https://www.youtube.com/watch?v=m4V0P8siYAg&list=PL1tySj0KEznT97a73-94JSu4OoH2OZ7Oi&index=2&pp=iAQB&origin=https://racecams.pages.dev" //quali 2              30.5 19:55
+//  const enURL = "https://www.youtube.com/watch?v=S6WUYLDJHfU&list=PL1tySj0KEznT97a73-94JSu4OoH2OZ7Oi&index=1&pp=iAQB&origin=https://racecams.pages.dev" //quali 1         30.5 12:55
+  const enURL = "https://www.youtube.com/watch?v=m4V0P8siYAg&list=PL1tySj0KEznT97a73-94JSu4OoH2OZ7Oi&index=2&pp=iAQB&origin=https://racecams.pages.dev" //quali 2              30.5 19:55
 //  const enURL = "https://www.youtube.com/watch?v=kYFPyX-ZL1o&list=PL1tySj0KEznT97a73-94JSu4OoH2OZ7Oi&index=3&pp=iAQB&origin=https://racecams.pages.dev" //quali 3              31.5 13:25
 //  const enURL = "https://www.youtube.com/watch?v=dhaq3DdU_wo&list=PL1tySj0KEznT97a73-94JSu4OoH2OZ7Oi&index=4&pp=iAQB&origin=https://racecams.pages.dev" //top quali draew      31.5 16:00
 //  const enURL = "https://www.youtube.com/watch?v=ny3aGeC5Fdg&list=PL1tySj0KEznT97a73-94JSu4OoH2OZ7Oi&index=5&pp=iAQB&origin=https://racecams.pages.dev" //top quali            31.5 17:25
