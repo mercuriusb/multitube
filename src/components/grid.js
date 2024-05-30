@@ -11,9 +11,11 @@ function Grid({urls,playState,setPlayState,volumeState,gridMode,refs}) {
   }
   const grids = []
 
+  /*
   for (let i = 0; i < urls.length; i++) {
       console.log("url " + i + ": " + urls[i].url);
   }
+  */
 
   if(urls.length > 0){
     grids.push( 
@@ -56,21 +58,21 @@ function Grid({urls,playState,setPlayState,volumeState,gridMode,refs}) {
 
 
   if(urls.length > 3){
-    grids.push( 
-      <div className="bg-black gap-1 h-[95%] grid grid-cols-3">
-        <div className="bg-black row-span-4 col-span-3">
-          <ReactPlayer id="0" ref={refs[0]} url={urls[[0]].url} width="100%" height="100%" volume={volumeState[0]} playing={playState[0]} controls={true} onPlay={() => handlePlayStateChange(0,true)} onPause={() => handlePlayStateChange(0,false)}/>
-        </div>
-        <div className="bg-black">
-          <ReactPlayer id="0" ref={refs[1]} url={urls[[1]].url} width="100%" height="100%" volume={volumeState[1]} playing={playState[1]} controls={true} onPlay={() => handlePlayStateChange(0,true)} onPause={() => handlePlayStateChange(0,false)}/>
-        </div>
-        <div className="bg-black">
-          <ReactPlayer id="0" ref={refs[2]} url={urls[[2]].url} width="100%" height="100%" volume={volumeState[2]} playing={playState[2]} controls={true} onPlay={() => handlePlayStateChange(0,true)} onPause={() => handlePlayStateChange(0,false)}/>
-        </div>
-        <div className="bg-black">
-          <ReactPlayer id="0" ref={refs[3]} url={urls[[3]].url} width="100%" height="100%" volume={volumeState[3]} playing={playState[3]} controls={true} onPlay={() => handlePlayStateChange(0,true)} onPause={() => handlePlayStateChange(0,false)}/>
-        </div>
-      </div>
+    grids.push(
+          <div className="bg-black gap-1 h-[95%] grid grid-cols-3">
+            <div className="bg-black row-span-4 col-span-3">
+              <ReactPlayer id="0" ref={refs[0]} url={urls[[0]].url} width="100%" height="100%" volume={volumeState[0]} playing={playState[0]} controls={true} onPlay={() => handlePlayStateChange(0,true)} onPause={() => handlePlayStateChange(0,false)}/>
+            </div>
+            <div className="bg-black">
+              <ReactPlayer id="0" ref={refs[1]} url={urls[[1]].url} width="100%" height="100%" volume={volumeState[1]} playing={playState[1]} controls={true} onPlay={() => handlePlayStateChange(0,true)} onPause={() => handlePlayStateChange(0,false)}/>
+            </div>
+            <div className="bg-black">
+              <ReactPlayer id="0" ref={refs[2]} url={urls[[2]].url} width="100%" height="100%" volume={volumeState[2]} playing={playState[2]} controls={true} onPlay={() => handlePlayStateChange(0,true)} onPause={() => handlePlayStateChange(0,false)}/>
+            </div>
+            <div className="bg-black">
+              <ReactPlayer id="0" ref={refs[3]} url={urls[[3]].url} width="100%" height="100%" volume={volumeState[3]} playing={playState[3]} controls={true} onPlay={() => handlePlayStateChange(0,true)} onPause={() => handlePlayStateChange(0,false)}/>
+            </div>
+          </div>
     )
   }
   
