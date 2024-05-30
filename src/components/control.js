@@ -71,7 +71,7 @@ function Control({ urls, setUrls, playState, setPlayState, setGridMode, refs,enU
   }
 
   const optionItems = playState.map((number, index) =>
-    <option key={index} value={index}>{urls[index].desc}</option>
+    <option id={index} key={index} value={index}>{urls[index].desc}</option>
   )
 
   const changeGerman = () => {
@@ -101,8 +101,8 @@ function Control({ urls, setUrls, playState, setPlayState, setGridMode, refs,enU
       <div className="flex justify-center">
         <div className="mb-0 xl:w-96">
           <select className="form-select form-select-sm appearance-none block w-full px-2 py-0.5 text-sm font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label=".form-select-sm example" defaultValue="-1" onChange={changeGridMode}>
-            <option key="-1" value="-1">All</option>
-            <option key="-2" value="-2">Onboards</option>
+            <option id="-1" key="-1" value="-1">All</option>
+            <option id="-2" key="-2" value="-2">Onboards</option>
             {optionItems}
           </select>
         </div>
