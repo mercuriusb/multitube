@@ -10,7 +10,7 @@ function App() {
 //  const enURL = "https://www.youtube.com/live/n18gSbqRmis?si=R8jfnugceySrA1Gq&origin=https://racecams.pages.dev" //race
 
 //  const deURL = "https://www.youtube.com/live/rne2VW35QaQ?si=Xb4VQWwANJfQInVa" //quali 1 & 2
-  const deURL = "https://www.youtube.com/live/BWoy0e38nZ8?si=ZiPtMZYwE2knUvEV" //quali 3 & top quali
+  const deURL = "https://www.youtube.com/live/SZ3YbUJkpKQ?si=-EmEVhy_EcOii_iQ" //quali 3 & top quali
 //  const deURL = "https://www.youtube.com/live/Nt7ewGmnN9g?si=EAmYkFTc_rxjVxnI" //race
   const [urls, setUrls] = useState([
     { "key": "1",  "url": enURL, "desc": "Main" },
