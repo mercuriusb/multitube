@@ -5,13 +5,13 @@ import Grid from "./components/grid";
 
 function App() {
 //  const enURL = "https://www.youtube.com/live/3Klx4tuNycA?si=iBqlgT0V-KSVTtxB" //quali 1
-//  const enURL = "https://www.youtube.com/live/R8Ext8hsyU8?si=w8JCw4YJ_u0t7AKo" //quali 2
-  const enURL = "https://www.youtube.com/live/G6DhWhXCHc0?si=BLSj2Am3L55ewZfy" //top quali
-//  const enURL = "https://www.youtube.com/live/n18gSbqRmis?si=R8jfnugceySrA1Gq&origin=https://racecams.pages.dev" //race
+//  const enURL = "https://www.youtube.com/live/R8Ext8hsyU8?si=w8JCw4YJ_u0t7AKo" //quali
+//  const enURL = "https://www.youtube.com/live/G6DhWhXCHc0?si=BLSj2Am3L55ewZfy" //top quali
+  const enURL = "https://www.youtube.com/live/n18gSbqRmis?si=NZFfvEJHux7zO9Ba&origin=https://racecams.pages.dev" //race
 
-//  const deURL = "https://www.youtube.com/live/rne2VW35QaQ?si=Xb4VQWwANJfQInVa" //quali 1 & 2
-  const deURL = "https://www.youtube.com/live/SZ3YbUJkpKQ?si=-EmEVhy_EcOii_iQ" //quali 3 & top quali
-//  const deURL = "https://www.youtube.com/live/Nt7ewGmnN9g?si=EAmYkFTc_rxjVxnI" //race
+//  const deURL = "https://www.youtube.com/live/rne2VW35QaQ?si=Xb4VQWwANJfQInVa" //quali 1 &
+//  const deURL = "https://www.youtube.com/live/SZ3YbUJkpKQ?si=-EmEVhy_EcOii_iQ" //quali 3 & top quali
+  const deURL = "https://www.youtube.com/live/Nt7ewGmnN9g?si=WJqM2rOZkLrRH2Gp&origin=https://racecams.pages.dev" //race
   const [urls, setUrls] = useState([
     { "key": "1",  "url": enURL, "desc": "Main" },
     { "key": "2",  "url": "https://www.youtube.com/live/g-ioq7t0qgc?si=mt0y7DrHCZ-PNm0y&origin=https://racecams.pages.dev"  , "desc": "001 Scherer" },
