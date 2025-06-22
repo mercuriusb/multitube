@@ -14,24 +14,18 @@ function App() {
   const deURL = "https://www.youtube.com/live/Nt7ewGmnN9g?si=WJqM2rOZkLrRH2Gp&origin=https://racecams.pages.dev" //race
   const [urls, setUrls] = useState([
     { "key": "1",  "url": enURL, "desc": "Main" },
-//    { "key": "2",  "url": "https://www.youtube.com/live/g-ioq7t0qgc?si=mt0y7DrHCZ-PNm0y&origin=https://racecams.pages.dev"  , "desc": "001 Scherer" },
     { "key": "2",  "url": "https://www.youtube.com/live/ZEPAuItPQSI?si=s69nUkKg5dofoeeg&origin=https://racecams.pages.dev"  , "desc": "027 Abt" },
-//    { "key": "4",  "url": "https://www.youtube.com/live/cHTdu9Yfwp8?si=GwjlzvLPz7Jp7HRe&origin=https://racecams.pages.dev"  , "desc": "033 Falken" },
-    { "key": "3",  "url": "https://www.youtube.com/live/7z-zTI3TDaQ?si=UuNXGrRpAPPttu1V&origin=https://racecams.pages.dev"  , "desc": "044 Falken" },
-    { "key": "4",  "url": "https://www.youtube.com/live/9EIuC_v_lQg?si=xZ9oppxBqOMvt4-3&origin=https://racecams.pages.dev"  , "desc": "014 Getspeed" },
-//    { "key": "7",  "url": "https://www.youtube.com/live/buy2LRHcA-0?si=pBqrvX5g7F845_mv&origin=https://racecams.pages.dev"  , "desc": "016 Scherer" },
-    { "key": "5",  "url": "https://www.youtube.com/live/6H-rKAzI3vc?si=PsABUcD9H7W_bH2N&origin=https://racecams.pages.dev"  , "desc": "017 Team Bilstein" },
-//    { "key": "9",  "url": "https://www.youtube.com/live/7HN3AqMeMc0?si=bnH8LDO2gHatvljX&origin=https://racecams.pages.dev"  , "desc": "088 Subraru" },
-    { "key": "6", "url": "https://www.youtube.com/live/67LVtQD0C6w?si=He4AENvYiCQ4U2go&origin=https://racecams.pages.dev"  , "desc": "911 Manthey" },
-    { "key": "7", "url": "https://www.youtube.com/live/ULia3lLKoEA?si=Bx7uDZosFjjjkDhj&origin=https://racecams.pages.dev"  , "desc": "098 Rowe" },
-    { "key": "8", "url": "https://www.youtube.com/live/L2YCMfWy5NU?si=nPvx7oB_U0XMcE3P&origin=https://racecams.pages.dev"  , "desc": "110 Toyota" },
-    { "key": "9", "url": "https://www.youtube.com/live/1UXH_VjSwSg?si=tHCvxEHNOX87z0GH&origin=https://racecams.pages.dev"  , "desc": "109 Toyota" },
-    { "key": "10", "url": "https://www.youtube.com/live/ek6irpP4E-I?si=gOemWNjbZrgcRrFT&origin=https://racecams.pages.dev"  , "desc": "830 Hyundai" },
-    { "key": "11", "url": "https://www.youtube.com/live/Qg3YgjaZIoU?si=7DUmXmtFN-X7w0ec&origin=https://racecams.pages.dev"  , "desc": "019 Kruse" },
-    { "key": "12", "url": "https://www.youtube.com/live/lmZ1pSiZi48?si=chO4Bg9D-p3eQgXA&origin=https://racecams.pages.dev"  , "desc": "150 Bilstein" },
-    { "key": "13", "url": "https://www.youtube.com/live/OVY5K0cbT5I?si=J_kf7WV3rAFQZEXd&origin=https://racecams.pages.dev"  , "desc": "718 Manthey" },
-    { "key": "14", "url": "https://www.youtube.com/live/JlZP4NoKnhg?si=YJ2An5OhyEVX97iM&origin=https://racecams.pages.dev"  , "desc": "097 Saugmotoren" },
-    { "key": "15", "url": "https://www.youtube.com/live/VbNp7dSI-y0?si=WxJv5VYITVKSgjT0&origin=https://racecams.pages.dev"  , "desc": "013 White Angel" }
+    { "key": "3", "url": "https://www.youtube.com/live/67LVtQD0C6w?si=He4AENvYiCQ4U2go&origin=https://racecams.pages.dev"  , "desc": "911 Manthey" },
+    { "key": "4", "url": "https://www.youtube.com/live/ULia3lLKoEA?si=Bx7uDZosFjjjkDhj&origin=https://racecams.pages.dev"  , "desc": "098 Rowe" },
+    { "key": "5", "url": "https://www.youtube.com/live/L2YCMfWy5NU?si=nPvx7oB_U0XMcE3P&origin=https://racecams.pages.dev"  , "desc": "110 Toyota" },
+    { "key": "6", "url": "https://www.youtube.com/live/1UXH_VjSwSg?si=tHCvxEHNOX87z0GH&origin=https://racecams.pages.dev"  , "desc": "109 Toyota" },
+    { "key": "7", "url": "https://www.youtube.com/live/ek6irpP4E-I?si=gOemWNjbZrgcRrFT&origin=https://racecams.pages.dev"  , "desc": "830 Hyundai" },
+    { "key": "8", "url": "https://www.youtube.com/live/Qg3YgjaZIoU?si=7DUmXmtFN-X7w0ec&origin=https://racecams.pages.dev"  , "desc": "019 Kruse" },
+    { "key": "9", "url": "https://www.youtube.com/live/lmZ1pSiZi48?si=chO4Bg9D-p3eQgXA&origin=https://racecams.pages.dev"  , "desc": "150 Bilstein" },
+    { "key": "10", "url": "https://www.youtube.com/live/OVY5K0cbT5I?si=J_kf7WV3rAFQZEXd&origin=https://racecams.pages.dev"  , "desc": "718 Manthey" },
+    { "key": "11", "url": "https://www.youtube.com/live/JlZP4NoKnhg?si=YJ2An5OhyEVX97iM&origin=https://racecams.pages.dev"  , "desc": "097 Saugmotoren" },
+    { "key": "12", "url": "https://www.youtube.com/live/VbNp7dSI-y0?si=WxJv5VYITVKSgjT0&origin=https://racecams.pages.dev"  , "desc": "013 White Angel" },
+    { "key": "12", "url": "https://www.youtube.com/live/peDwqhVE_18?si=niMnj3Wo9JGsY8WM&origin=https://racecams.pages.dev"  , "desc": "013 White Angel" }
     //{ "key": "20", "url": "&origin=https://racecams.pages.dev"  , "desc": "Pitlane" },
     //{ "url": "https://www.youtube.com/watch?v=skeuVsHVauQ", "desc": "GPS" }
   ]);
