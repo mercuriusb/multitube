@@ -1,0 +1,32 @@
+{
+  "defaultLanguage": "en",
+  "mainStream": {
+    "id": "main",
+    "desc": "Main",
+    "urls": {
+      "en": "https://www.youtube.com/watch?v=jR4JJovuOHI",
+      "de": "https://www.youtube.com/watch?v=w0cAHT2mXtY"
+    }
+  },
+  "onboards": [
+    { "id": "verstappen-r1",   "desc": "#3 Verstappen Mercedes (Race 1)",  "url": "https://www.youtube.com/watch?v=AU0wYwMqyyk" },
+    { "id": "verstappen-r2",   "desc": "#3 Verstappen Mercedes (Race 2)",  "url": "https://www.youtube.com/watch?v=1dPsvnc4PQ0" },
+    { "id": "verstappen-q",    "desc": "#3 Verstappen Mercedes (Quali)",   "url": "https://www.youtube.com/watch?v=1_Owonhj0DA" },
+    { "id": "falken-44",       "desc": "#44 Falken Porsche",               "url": "https://www.youtube.com/watch?v=WXBnwSPbKTI" },
+    { "id": "ravenol-80",      "desc": "#80 Ravenol Mercedes",             "url": "https://www.youtube.com/watch?v=3X103Md2GpU" },
+    { "id": "scherer-16",      "desc": "#16 Scherer Sport PHX Audi",       "url": "https://www.youtube.com/watch?v=66sBY478hPY" },
+    { "id": "hyundai-830",     "desc": "#830 Hyundai N TCR",               "url": "https://www.youtube.com/watch?v=NyjGJYZnbR8" },
+    { "id": "auer-topq",       "desc": "Auer/Verstappen Top Qualifying",   "url": "https://www.youtube.com/watch?v=x4mKVnIaDH0" },
+    { "id": "auer-r1",         "desc": "Auer/Verstappen Race 1",           "url": "https://www.youtube.com/watch?v=As6Yyf2m-Vs" },
+    { "id": "auer-r2",         "desc": "Verstappen/Auer Race 2",           "url": "https://www.youtube.com/watch?v=QZVD9BD52vM" },
+    { "id": "nls-r2-verst",    "desc": "Verstappen NLS Race 2",            "url": "https://www.youtube.com/watch?v=MCN1-dL_-Mk" },
+    { "id": "nbg-race3",       "desc": "Nürburgring Race 3",               "url": "https://www.youtube.com/watch?v=nTnstvGoP5k" },
+    { "id": "nls-r2",          "desc": "NLS Race 2 (ADAC Ravenol)",        "url": "https://www.youtube.com/watch?v=8rwzlrV_Mx4" }
+  ],
+  "externalLinks": [
+    { "label": "Schedule",    "href": "https://www.24h-rennen.de/en/schedule/" },
+    { "label": "GPS",         "href": "https://www.youtube.com/watch?v=skeuVsHVauQ" },
+    { "label": "Live timing", "href": "https://livetiming.azurewebsites.net/event=50?config=w3" },
+    { "label": "Entry list",  "href": "https://www.24h-rennen.de/en/participants/" }
+  ]
+}
