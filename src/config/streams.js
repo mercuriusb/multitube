@@ -2,7 +2,7 @@
 // Vorteil: URLs lassen sich vor (oder während) eines Rennens austauschen,
 // ohne den App-Code neu zu bauen oder neu zu deployen.
 
-const CONFIG_URL = `${process.env.PUBLIC_URL || ""}/streams.json`;
+const CONFIG_URL = `${import.meta.env.BASE_URL.replace(/\/$/, "")}/streams.json`;
 
 export async function loadStreamsConfig() {
   // cache: 'no-cache' sorgt für einen Conditional-Request — der Browser

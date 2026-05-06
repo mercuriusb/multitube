@@ -66,15 +66,20 @@ function Loaded({ config }) {
   }
   const refs = refsRef.current;
 
-  // Bei Live-Streams springt seekTo(1, 'fraction') an die Live-Edge (Ende
-  // des DVR-Fensters). Bei VODs entspricht das dem Ende des Videos — für
-  // echte Live-Inhalte ist das exakt das gewünschte Verhalten.
+  // react-player v3: refs zeigen auf ein HTMLVideoElement-kompatibles Element.
+  // Für Live-Streams ist das Ende der seekable-Range die Live-Edge. Bei VODs
+  // ist das schlicht das Ende — für echte Live-Inhalte das gewünschte Verhalten.
   const seekAllToLive = useCallback(() => {
     refs.forEach((r) => {
-      const player = r.current;
-      if (player && typeof player.seekTo === "function") {
-        try { player.seekTo(1, "fraction"); } catch { /* Player noch nicht bereit */ }
-      }
+      const v = r.current;
+      if (!v) return;
+      try {
+        if (v.seekable && v.seekable.length > 0) {
+          v.currentTime = v.seekable.end(v.seekable.length - 1);
+        } else if (Number.isFinite(v.duration)) {
+          v.currentTime = v.duration;
+        }
+      } catch { /* Player noch nicht bereit */ }
     });
   }, [refs]);
 
