@@ -85,8 +85,6 @@ function Control({
         Onboards
       </IconButton>
 
-      <Divider />
-
       {/* Live button */}
       <IconButton onClick={onSeekToLive} title="Alle Streams an die Live-Position spulen">
         <FaCircle size={8} className="text-red-500" />
