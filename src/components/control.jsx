@@ -1,5 +1,5 @@
-import React, { useMemo } from "react";
-import { FaPause, FaPlay, FaCircle } from "react-icons/fa";
+import { useMemo } from "react";
+import { FaCircle, FaPause, FaPlay } from "react-icons/fa";
 import { GRID_MODE } from "../config/layouts";
 
 const Divider = () => (
@@ -90,8 +90,6 @@ function Control({
         <FaCircle size={8} className="text-red-500" />
         Live
       </IconButton>
-
-      <Divider />
 
       {/* View selector */}
       <select
