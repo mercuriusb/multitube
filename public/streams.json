@@ -1,32 +1,25 @@
 {
   "defaultLanguage": "en",
   "mainStream": {
-    "id": "main",
-    "desc": "Main",
+    "id": "horseshoe-curve",
+    "desc": "Horseshoe Curve, Pennsylvania",
     "urls": {
-      "en": "https://www.youtube.com/watch?v=IDel0hkHpjA",
-      "de": "https://www.youtube.com/watch?v=IDel0hkHpjA"
+      "en": "https://www.youtube.com/watch?v=QRicd-vzRaI&origin=https://racecams.pages.dev"
     }
   },
   "onboards": [
-    { "id": "verstappen-r1",   "desc": "#3 Verstappen Mercedes (Race 1)",  "url": "https://www.youtube.com/watch?v=QRicd-vzRaI" },
-    { "id": "verstappen-r2",   "desc": "#3 Verstappen Mercedes (Race 2)",  "url": "https://www.youtube.com/watch?v=DWr3Kga5InM" },
-    { "id": "verstappen-q",    "desc": "#3 Verstappen Mercedes (Quali)",   "url": "https://www.youtube.com/watch?v=Lcdi9O2XB4E" },
-    { "id": "falken-44",       "desc": "#44 Falken Porsche",               "url": "https://www.youtube.com/watch?v=HdczduxN83o" },
-    { "id": "ravenol-80",      "desc": "#80 Ravenol Mercedes",             "url": "https://www.youtube.com/watch?v=F0GOOP82094" },
-    { "id": "scherer-16",      "desc": "#16 Scherer Sport PHX Audi",       "url": "https://www.youtube.com/watch?v=oFLvtPKBXEs" },
-    { "id": "hyundai-830",     "desc": "#830 Hyundai N TCR",               "url": "https://www.youtube.com/watch?v=fIMbMz2P7Bs" },
-    { "id": "auer-topq",       "desc": "Auer/Verstappen Top Qualifying",   "url": "https://www.youtube.com/watch?v=U-rvoF1tLoU" },
-    { "id": "auer-r1",         "desc": "Auer/Verstappen Race 1",           "url": "https://www.youtube.com/watch?v=tAWFO8_O_7M" },
-    { "id": "auer-r2",         "desc": "Verstappen/Auer Race 2",           "url": "https://www.youtube.com/watch?v=e9C9K8ltDfk" },
-    { "id": "nls-r2-verst",    "desc": "Verstappen NLS Race 2",            "url": "https://www.youtube.com/watch?v=L6eG4ahJc_Q" },
-    { "id": "nbg-race3",       "desc": "Nürburgring Race 3",               "url": "https://www.youtube.com/watch?v=TZikBxNaaQk" },
-    { "id": "nls-r2",          "desc": "NLS Race 2 (ADAC Ravenol)",        "url": "https://www.youtube.com/watch?v=yoZkbeEbWb4" }
+    { "id": "austell-ga",      "desc": "Austell, Georgia",              "url": "https://www.youtube.com/watch?v=CQLQ4MqXdtE&origin=https://racecams.pages.dev" },
+    { "id": "tehachapi-cable", "desc": "Tehachapi West Cable",          "url": "https://www.youtube.com/watch?v=nApxyxIei78&origin=https://racecams.pages.dev" },
+    { "id": "ashland-va",      "desc": "Ashland, Virginia (PTZ)",       "url": "https://www.youtube.com/watch?v=wgkdREYOfw0&origin=https://racecams.pages.dev" },
+    { "id": "elkhart-in",      "desc": "Elkhart, Indiana (PTZ)",        "url": "https://www.youtube.com/watch?v=YR1PdWaSxgk&origin=https://racecams.pages.dev" },
+    { "id": "fort-madison-ia", "desc": "Fort Madison, Iowa (PTZ)",      "url": "https://www.youtube.com/watch?v=L6eG4ahJc_Q&origin=https://racecams.pages.dev" },
+    { "id": "flagstaff-az",    "desc": "Flagstaff, Arizona",            "url": "https://www.youtube.com/watch?v=7xdHH9KMSVk&origin=https://racecams.pages.dev" },
+    { "id": "olympia-lacey",   "desc": "Blue Island, Illinois (PTZ)",   "url": "https://www.youtube.com/watch?v=PftkGaoFl_0&origin=https://racecams.pages.dev" },
+    { "id": "kearney-ne",      "desc": "Kearney, Nebraska",             "url": "https://www.youtube.com/watch?v=23tmCNeFh7A&origin=https://racecams.pages.dev" },
+    { "id": "fairport-ny",     "desc": "Fairport, New York",            "url": "https://www.youtube.com/watch?v=XWxyuL9dctA&origin=https://racecams.pages.dev" },
+    { "id": "lagrange-ky",     "desc": "La Grange, Kentucky (PTZ)",     "url": "https://www.youtube.com/watch?v=9SLt3AT0rXk&origin=https://racecams.pages.dev" },
+    { "id": "woodside-ny",     "desc": "Woodside, New York (LIRR/Subway)", "url": "https://www.youtube.com/watch?v=ZK5rYPFcf6w&origin=https://racecams.pages.dev" },
+    { "id": "dunkirk-ny",      "desc": "Dunkirk, New York (CSX)",       "url": "https://www.youtube.com/watch?v=ssuM6NJQ2no&origin=https://racecams.pages.dev" }
   ],
-  "externalLinks": [
-    { "label": "Schedule",    "href": "https://www.24h-rennen.de/en/schedule/" },
-    { "label": "GPS",         "href": "https://www.youtube.com/watch?v=skeuVsHVauQ" },
-    { "label": "Live timing", "href": "https://livetiming.azurewebsites.net/event=50?config=w3" },
-    { "label": "Entry list",  "href": "https://www.24h-rennen.de/en/participants/" }
-  ]
+  "externalLinks": []
 }
