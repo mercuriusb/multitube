@@ -1,25 +1,40 @@
 {
-  "defaultLanguage": "en",
+  "defaultLanguage": "de",
   "mainStream": {
-    "id": "horseshoe-curve",
-    "desc": "Horseshoe Curve, Pennsylvania",
+    "id": "main",
+    "desc": "Main",
     "urls": {
-      "en": "https://www.youtube.com/watch?v=QRicd-vzRaI&origin=https://racecams.pages.dev"
+      "de": "https://www.youtube.com/watch?v=T0gejxud6-4&origin=https://racecams.pages.dev",
+      "en": "https://www.youtube.com/watch?v=gQ7Q_XhTJbg&origin=https://racecams.pages.dev"
     }
   },
   "onboards": [
-    { "id": "austell-ga",      "desc": "Austell, Georgia",              "url": "https://www.youtube.com/watch?v=CQLQ4MqXdtE&origin=https://racecams.pages.dev" },
-    { "id": "tehachapi-cable", "desc": "Tehachapi West Cable",          "url": "https://www.youtube.com/watch?v=nApxyxIei78&origin=https://racecams.pages.dev" },
-    { "id": "ashland-va",      "desc": "Ashland, Virginia (PTZ)",       "url": "https://www.youtube.com/watch?v=wgkdREYOfw0&origin=https://racecams.pages.dev" },
-    { "id": "elkhart-in",      "desc": "Elkhart, Indiana (PTZ)",        "url": "https://www.youtube.com/watch?v=YR1PdWaSxgk&origin=https://racecams.pages.dev" },
-    { "id": "fort-madison-ia", "desc": "Fort Madison, Iowa (PTZ)",      "url": "https://www.youtube.com/watch?v=L6eG4ahJc_Q&origin=https://racecams.pages.dev" },
-    { "id": "flagstaff-az",    "desc": "Flagstaff, Arizona",            "url": "https://www.youtube.com/watch?v=7xdHH9KMSVk&origin=https://racecams.pages.dev" },
-    { "id": "olympia-lacey",   "desc": "Blue Island, Illinois (PTZ)",   "url": "https://www.youtube.com/watch?v=PftkGaoFl_0&origin=https://racecams.pages.dev" },
-    { "id": "kearney-ne",      "desc": "Kearney, Nebraska",             "url": "https://www.youtube.com/watch?v=23tmCNeFh7A&origin=https://racecams.pages.dev" },
-    { "id": "fairport-ny",     "desc": "Fairport, New York",            "url": "https://www.youtube.com/watch?v=XWxyuL9dctA&origin=https://racecams.pages.dev" },
-    { "id": "lagrange-ky",     "desc": "La Grange, Kentucky (PTZ)",     "url": "https://www.youtube.com/watch?v=9SLt3AT0rXk&origin=https://racecams.pages.dev" },
-    { "id": "woodside-ny",     "desc": "Woodside, New York (LIRR/Subway)", "url": "https://www.youtube.com/watch?v=ZK5rYPFcf6w&origin=https://racecams.pages.dev" },
-    { "id": "dunkirk-ny",      "desc": "Dunkirk, New York (CSX)",       "url": "https://www.youtube.com/watch?v=ssuM6NJQ2no&origin=https://racecams.pages.dev" }
+    { "id": "scherer-1",       "desc": "#1 Scherer Sport PHX",                        "url": "https://www.youtube.com/watch?v=g-ioq7t0qgc&origin=https://racecams.pages.dev"  },
+    { "id": "white-angel-13",  "desc": "#13 White Angel for Fly and Help",            "url": "https://www.youtube.com/watch?v=VbNp7dSI-y0&origin=https://racecams.pages.dev"  },
+    { "id": "getspeed-14",     "desc": "#14 Mercedes-AMG Team GetSpeed",              "url": "https://www.youtube.com/watch?v=9EIuC_v_lQg&origin=https://racecams.pages.dev"  },
+    { "id": "scherer-16",      "desc": "#16 Scherer Sport PHX",                       "url": "https://www.youtube.com/watch?v=buy2LRHcA-0&origin=https://racecams.pages.dev"  },
+    { "id": "getspeed-17",     "desc": "#17 Mercedes-AMG Team GetSpeed",              "url": "https://www.youtube.com/watch?v=6H-rKAzI3vc&origin=https://racecams.pages.dev"  },
+    { "id": "max-kruse-19",    "desc": "#19 Max Kruse Racing",                        "url": "https://www.youtube.com/watch?v=Qg3YgjaZIoU&origin=https://racecams.pages.dev"  },
+    { "id": "abt-27",          "desc": "#27 Red Bull Team ABT",                       "url": "https://www.youtube.com/watch?v=ZEPAuItPQSI&origin=https://racecams.pages.dev"  },
+    { "id": "falken-33",       "desc": "#33 Falken Motorsports",                      "url": "https://www.youtube.com/watch?v=cHTdu9Yfwp8&origin=https://racecams.pages.dev"  },
+    { "id": "falken-44",       "desc": "#44 Falken Motorsports",                      "url": "https://www.youtube.com/watch?v=7z-zTI3TDaQ&origin=https://racecams.pages.dev"  },
+    { "id": "subaru-88",       "desc": "#88 Subaru Tecnica International",            "url": "https://www.youtube.com/watch?v=7HN3AqMeMc0&origin=https://racecams.pages.dev"  },
+    { "id": "saugmotoren-97",  "desc": "#97 Saugmotoren Motorsport",                 "url": "https://www.youtube.com/watch?v=JlZP4NoKnhg&origin=https://racecams.pages.dev"  },
+    { "id": "rowe-98",         "desc": "#98 ROWE Racing",                             "url": "https://www.youtube.com/watch?v=ULia3lLKoEA&origin=https://racecams.pages.dev"  },
+    { "id": "toyota-109",      "desc": "#109 TOYOTA GAZOO ROOKIE Racing",             "url": "https://www.youtube.com/watch?v=1UXH_VjSwSg&origin=https://racecams.pages.dev"  },
+    { "id": "toyota-110",      "desc": "#110 TOYOTA GAZOO ROOKIE Racing",             "url": "https://www.youtube.com/watch?v=L2YCMfWy5NU&origin=https://racecams.pages.dev"  },
+    { "id": "bilstein-150",    "desc": "#150 Team BILSTEIN by BLACK Falcon",          "url": "https://www.youtube.com/watch?v=lmZ1pSiZi48&origin=https://racecams.pages.dev"  },
+    { "id": "manthey-718",     "desc": "#718 MANTHEY Team eFuel Griesemann",          "url": "https://www.youtube.com/watch?v=OVY5K0cbT5I&origin=https://racecams.pages.dev"  },
+    { "id": "hyundai-830",     "desc": "#830 Hyundai Motorsport N",                   "url": "https://www.youtube.com/watch?v=ek6irpP4E-I&origin=https://racecams.pages.dev"  },
+    { "id": "grello-911",      "desc": "#911 Manthey EMA \"Grello\" Porsche 911 GT3", "url": "https://www.youtube.com/watch?v=67LVtQD0C6w&origin=https://racecams.pages.dev"  }
   ],
-  "externalLinks": []
+  "externalLinks": [
+    { "label": "Schedule",      "href": "https://www.24h-rennen.de/en/schedule/"                      },
+    { "label": "Entry list",    "href": "https://www.24h-rennen.de/en/participants/"                  },
+    { "label": "Pitlane",       "href": "https://www.youtube.com/watch?v=OZdE2ZOAXfo"                 },
+    { "label": "GPS",           "href":  "https://www.youtube.com/watch?v=IeP0lLJYtIs"                },
+    { "label": "Live timing",   "href": "https://livetiming.azurewebsites.net/event=50?config=w3"     },
+    { "label": "Ticker",        "href": "https://www.24h-rennen.de/liveticker.php"                    },
+    { "label": "Radio NBR",     "href": "https://nuerburgring.de/info/service/radio"                  }
+  ]
 }
