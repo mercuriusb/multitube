@@ -9,24 +9,86 @@
     }
   },
   "onboards": [
-    { "id": "scherer-1",       "desc": "#1 Scherer Sport PHX",                        "url": "https://www.youtube.com/watch?v=g-ioq7t0qgc&origin=https://racecams.pages.dev"  },
-    { "id": "white-angel-13",  "desc": "#13 White Angel for Fly and Help",            "url": "https://www.youtube.com/watch?v=VbNp7dSI-y0&origin=https://racecams.pages.dev"  },
-    { "id": "getspeed-14",     "desc": "#14 Mercedes-AMG Team GetSpeed",              "url": "https://www.youtube.com/watch?v=9EIuC_v_lQg&origin=https://racecams.pages.dev"  },
-    { "id": "scherer-16",      "desc": "#16 Scherer Sport PHX",                       "url": "https://www.youtube.com/watch?v=buy2LRHcA-0&origin=https://racecams.pages.dev"  },
-    { "id": "getspeed-17",     "desc": "#17 Mercedes-AMG Team GetSpeed",              "url": "https://www.youtube.com/watch?v=6H-rKAzI3vc&origin=https://racecams.pages.dev"  },
-    { "id": "max-kruse-19",    "desc": "#19 Max Kruse Racing",                        "url": "https://www.youtube.com/watch?v=Qg3YgjaZIoU&origin=https://racecams.pages.dev"  },
-    { "id": "abt-27",          "desc": "#27 Red Bull Team ABT",                       "url": "https://www.youtube.com/watch?v=ZEPAuItPQSI&origin=https://racecams.pages.dev"  },
-    { "id": "falken-33",       "desc": "#33 Falken Motorsports",                      "url": "https://www.youtube.com/watch?v=cHTdu9Yfwp8&origin=https://racecams.pages.dev"  },
-    { "id": "falken-44",       "desc": "#44 Falken Motorsports",                      "url": "https://www.youtube.com/watch?v=7z-zTI3TDaQ&origin=https://racecams.pages.dev"  },
-    { "id": "subaru-88",       "desc": "#88 Subaru Tecnica International",            "url": "https://www.youtube.com/watch?v=7HN3AqMeMc0&origin=https://racecams.pages.dev"  },
-    { "id": "saugmotoren-97",  "desc": "#97 Saugmotoren Motorsport",                 "url": "https://www.youtube.com/watch?v=JlZP4NoKnhg&origin=https://racecams.pages.dev"  },
-    { "id": "rowe-98",         "desc": "#98 ROWE Racing",                             "url": "https://www.youtube.com/watch?v=ULia3lLKoEA&origin=https://racecams.pages.dev"  },
-    { "id": "toyota-109",      "desc": "#109 TOYOTA GAZOO ROOKIE Racing",             "url": "https://www.youtube.com/watch?v=1UXH_VjSwSg&origin=https://racecams.pages.dev"  },
-    { "id": "toyota-110",      "desc": "#110 TOYOTA GAZOO ROOKIE Racing",             "url": "https://www.youtube.com/watch?v=L2YCMfWy5NU&origin=https://racecams.pages.dev"  },
-    { "id": "bilstein-150",    "desc": "#150 Team BILSTEIN by BLACK Falcon",          "url": "https://www.youtube.com/watch?v=lmZ1pSiZi48&origin=https://racecams.pages.dev"  },
-    { "id": "manthey-718",     "desc": "#718 MANTHEY Team eFuel Griesemann",          "url": "https://www.youtube.com/watch?v=OVY5K0cbT5I&origin=https://racecams.pages.dev"  },
-    { "id": "hyundai-830",     "desc": "#830 Hyundai Motorsport N",                   "url": "https://www.youtube.com/watch?v=ek6irpP4E-I&origin=https://racecams.pages.dev"  },
-    { "id": "grello-911",      "desc": "#911 Manthey EMA \"Grello\" Porsche 911 GT3", "url": "https://www.youtube.com/watch?v=67LVtQD0C6w&origin=https://racecams.pages.dev"  }
+    {
+      "id": "rowe-1",
+      "desc": "#1 BMW ROWE Racing",
+      "url": "https://www.youtube.com/watch?v=X2Icmd1PXOU&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "verstappen-3",
+      "desc": "#3 Mercedes-AMG Team Verstappen Racing",
+      "url": "https://www.youtube.com/watch?v=Keqjx5zqeDE&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "scherer-16",
+      "desc": "#16 Scherer Sport PHX",
+      "url": "https://www.youtube.com/watch?v=xiw4y2W71wA&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "dunlop-17",
+      "desc": "#17 Dunlop Motorsport",
+      "url": "https://www.youtube.com/watch?v=2OYU8wKPkDU&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "saugmotoren-36",
+      "desc": "#36 Saugmotoren Motorsport | 3M",
+      "url": "https://www.youtube.com/watch?v=s_pjGCAZDbM&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "falken-44",
+      "desc": "#44 Falken Motorsports",
+      "url": "https://www.youtube.com/watch?v=vkYfgV7nSZA&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "max-kruse-50",
+      "desc": "#50 Max Kruse Racing",
+      "url": "https://www.youtube.com/watch?v=Sny-FQ0KNzY&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "hrt-67",
+      "desc": "#67 HRT Ford Racing",
+      "url": "https://www.youtube.com/watch?v=chfYT_QM59k&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "ravenol-80",
+      "desc": "#80 Mercedes-AMG Team RAVENOL",
+      "url": "https://www.youtube.com/watch?v=diS_9fO2uQE&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "bmw-81",
+      "desc": "#81 BMW M Motorsport",
+      "url": "https://www.youtube.com/watch?v=Uzy9dqrP9o8&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "subaru-88",
+      "desc": "#88 Subaru Tecnica International",
+      "url": "https://www.youtube.com/watch?v=rlKlNPaonyU&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "toyota-109",
+      "desc": "#109 TOYOTA GAZOO Rookie Racing",
+      "url": "https://www.youtube.com/watch?v=MvRN_NmNDfE&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "black-falcon-632",
+      "desc": "#632 BLACK FALCON Team FANATEC",
+      "url": "https://www.youtube.com/watch?v=uuTNqqRaQCE&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "hyundai-830",
+      "desc": "#830 Hyundai Motorsport N",
+      "url": "https://www.youtube.com/watch?v=6P2nm5bvzKk&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "manthey-911",
+      "desc": "#911 Manthey",
+      "url": "https://www.youtube.com/watch?v=uofChxeVADU&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "manthey-992",
+      "desc": "#992 Manthey Team eFuel Griesemann",
+      "url": "https://www.youtube.com/watch?v=7oNyOWDrsXw&origin=https://racecams.pages.dev"
+    }
   ],
   "externalLinks": [
     { "label": "Schedule",      "href": "https://www.24h-rennen.de/en/schedule/"                      },
