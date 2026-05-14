@@ -90,6 +90,11 @@
       "url": "https://www.youtube.com/watch?v=7oNyOWDrsXw&origin=https://racecams.pages.dev"
     },
     {
+      "id": "gps-1",
+      "desc": "GPS",
+      "url": "https://www.youtube.com/watch?v=h9vy9dnkszA&origin=https://racecams.pages.dev"
+    },
+    {
       "id": "pitlane-1",
       "desc": "Pitlane",
       "url": "https://www.youtube.com/watch?v=OZdE2ZOAXfo&origin=https://racecams.pages.dev"
@@ -99,7 +104,7 @@
     { "label": "Schedule",      "href": "https://www.24h-rennen.de/en/schedule/"                      },
     { "label": "Entry list",    "href": "https://www.24h-rennen.de/en/participants/"                  },
     { "label": "Pitlane",       "href": "https://www.youtube.com/watch?v=OZdE2ZOAXfo"                 },
-    { "label": "GPS",           "href":  "https://www.youtube.com/watch?v=IeP0lLJYtIs"                },
+    { "label": "GPS",           "href":  "https://www.youtube.com/watch?v=h9vy9dnkszA"                },
     { "label": "Live timing",   "href": "https://livetiming.azurewebsites.net/event=50?config=w3"     },
     { "label": "Ticker",        "href": "https://www.24h-rennen.de/liveticker.php"                    },
     { "label": "Radio NBR",     "href": "https://nuerburgring.de/info/service/radio"                  }
