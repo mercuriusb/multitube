@@ -10,11 +10,6 @@
   },
   "onboards": [
     {
-      "id": "rowe-1",
-      "desc": "#1 BMW ROWE Racing",
-      "url": "https://www.youtube.com/watch?v=X2Icmd1PXOU&origin=https://racecams.pages.dev"
-    },
-    {
       "id": "verstappen-3",
       "desc": "#3 Mercedes-AMG Team Verstappen Racing",
       "url": "https://www.youtube.com/watch?v=Keqjx5zqeDE&origin=https://racecams.pages.dev"
@@ -78,6 +73,11 @@
       "id": "manthey-992",
       "desc": "#992 Manthey Team eFuel Griesemann",
       "url": "https://www.youtube.com/watch?v=7oNyOWDrsXw&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "pitline-1",
+      "desc": "Pitlane",
+      "url": "https://www.youtube.com/watch?v=OZdE2ZOAXfo&origin=https://racecams.pages.dev"
     }
   ],
   "externalLinks": [
