@@ -20,11 +20,6 @@
       "url": "https://www.youtube.com/watch?v=Keqjx5zqeDE&origin=https://racecams.pages.dev"
     },
     {
-      "id": "scherer-16",
-      "desc": "#16 Scherer Sport PHX",
-      "url": "https://www.youtube.com/watch?v=xiw4y2W71wA&origin=https://racecams.pages.dev"
-    },
-    {
       "id": "dunlop-17",
       "desc": "#17 Dunlop Motorsport",
       "url": "https://www.youtube.com/watch?v=2OYU8wKPkDU&origin=https://racecams.pages.dev"
@@ -80,26 +75,9 @@
       "url": "https://www.youtube.com/watch?v=6P2nm5bvzKk&origin=https://racecams.pages.dev"
     },
     {
-      "id": "manthey-911",
-      "desc": "#911 Manthey",
-      "url": "https://www.youtube.com/watch?v=uofChxeVADU&origin=https://racecams.pages.dev"
-    },
-    {
       "id": "manthey-992",
       "desc": "#992 Manthey Team eFuel Griesemann",
       "url": "https://www.youtube.com/watch?v=7oNyOWDrsXw&origin=https://racecams.pages.dev"
-    },
-    {
-      "id": "gps-1",
-      "desc": "GPS",
-      "url": "https://www.youtube.com/watch?v=h9vy9dnkszA&origin=https://racecams.pages.dev",
-      "onboard": false
-    },
-    {
-      "id": "pitlane-1",
-      "desc": "Pitlane",
-      "url": "https://www.youtube.com/watch?v=OZdE2ZOAXfo&origin=https://racecams.pages.dev",
-      "onboard": false
     }
   ],
   "externalLinks": [
