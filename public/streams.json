@@ -107,6 +107,7 @@
     { "label": "GPS",           "href":  "https://www.youtube.com/watch?v=h9vy9dnkszA"                },
     { "label": "Live timing",   "href": "https://livetiming.azurewebsites.net/event=50?config=w3"     },
     { "label": "Ticker",        "href": "https://www.24h-rennen.de/liveticker.php"                    },
+    { "label": "Race Control",  "href": "https://streaming.rtl.de/de/event/racecontrol26"                    },
     { "label": "Radio NBR",     "href": "https://nuerburgring.de/info/service/radio"                  }
   ]
 }
