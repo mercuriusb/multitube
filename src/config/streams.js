@@ -35,7 +35,7 @@ export function buildStreamList(config, language) {
       desc: config.mainStream.desc ?? "Main",
       url: config.mainStream.urls[lang],
     },
-    ...config.onboards.map((o) => ({ id: o.id, desc: o.desc, url: o.url })),
+    ...config.onboards.map((o) => ({ id: o.id, desc: o.desc, url: o.url, onboard: o.onboard !== false })),
   ];
 }
 

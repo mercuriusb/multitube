@@ -92,12 +92,14 @@
     {
       "id": "gps-1",
       "desc": "GPS",
-      "url": "https://www.youtube.com/watch?v=h9vy9dnkszA&origin=https://racecams.pages.dev"
+      "url": "https://www.youtube.com/watch?v=h9vy9dnkszA&origin=https://racecams.pages.dev",
+      "onboard": false
     },
     {
       "id": "pitlane-1",
       "desc": "Pitlane",
-      "url": "https://www.youtube.com/watch?v=OZdE2ZOAXfo&origin=https://racecams.pages.dev"
+      "url": "https://www.youtube.com/watch?v=OZdE2ZOAXfo&origin=https://racecams.pages.dev",
+      "onboard": false
     }
   ],
   "externalLinks": [

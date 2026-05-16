@@ -281,6 +281,65 @@ export const onboardLayouts = [
       cell(11, "col-span-4"), cell(12, "col-span-4"), cell(13, "col-span-4"),
     ],
   },
+
+  // 15
+  {
+    cols: 12,
+    cells: [
+      cell(1, "col-span-3"), cell(2, "col-span-3"), cell(3, "col-span-3"), cell(4, "col-span-3"),
+      cell(5, "col-span-3"), cell(6, "col-span-3"), cell(7, "col-span-3"), cell(8, "col-span-3"),
+      cell(9, "col-span-4"), cell(10, "col-span-4"), cell(11, "col-span-4"),
+      cell(12, "col-span-4"), cell(13, "col-span-4"), cell(14, "col-span-4"),
+    ],
+  },
+
+  // 16
+  {
+    cols: 3,
+    cells: [
+      cell(1), cell(2), cell(3),
+      cell(4), cell(5), cell(6),
+      cell(7), cell(8), cell(9),
+      cell(10), cell(11), cell(12),
+      cell(13), cell(14), cell(15),
+    ],
+  },
+
+  // 17
+  {
+    cols: 4,
+    cells: [
+      cell(1), cell(2), cell(3), cell(4),
+      cell(5), cell(6), cell(7), cell(8),
+      cell(9), cell(10), cell(11), cell(12),
+      cell(13), cell(14), cell(15), cell(16),
+    ],
+  },
+
+  // 18
+  {
+    cols: 12,
+    cells: [
+      cell(1, "col-span-3"), cell(2, "col-span-3"), cell(3, "col-span-3"), cell(4, "col-span-3"),
+      cell(5, "col-span-3"), cell(6, "col-span-3"), cell(7, "col-span-3"), cell(8, "col-span-3"),
+      cell(9, "col-span-4"), cell(10, "col-span-4"), cell(11, "col-span-4"),
+      cell(12, "col-span-4"), cell(13, "col-span-4"), cell(14, "col-span-4"),
+      cell(15, "col-span-4"), cell(16, "col-span-4"), cell(17, "col-span-4"),
+    ],
+  },
+
+  // 19
+  {
+    cols: 3,
+    cells: [
+      cell(1), cell(2), cell(3),
+      cell(4), cell(5), cell(6),
+      cell(7), cell(8), cell(9),
+      cell(10), cell(11), cell(12),
+      cell(13), cell(14), cell(15),
+      cell(16), cell(17), cell(18),
+    ],
+  },
 ];
 
 export const GRID_MODE = {

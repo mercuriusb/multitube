@@ -92,11 +92,16 @@ function Grid({ streams, playState, setPlayState, volumeState, gridMode, refs })
     );
   }
 
-  const layout = pickLayout(gridMode, streams.length);
+  const layoutStreamCount =
+    gridMode === GRID_MODE.ONBOARDS
+      ? streams.filter((s, i) => i === 0 || s.onboard !== false).length
+      : streams.length;
+
+  const layout = pickLayout(gridMode, layoutStreamCount);
   if (!layout) return null;
 
   const effectiveLayout =
-    gridMode === GRID_MODE.ONBOARDS && streams.length === 1
+    gridMode === GRID_MODE.ONBOARDS && layoutStreamCount === 1
       ? pickLayout(GRID_MODE.OVERVIEW, 1)
       : layout;
 
