@@ -25,11 +25,6 @@
       "url": "https://www.youtube.com/watch?v=s_pjGCAZDbM&origin=https://racecams.pages.dev"
     },
     {
-      "id": "falken-44",
-      "desc": "#44 Falken Motorsports",
-      "url": "https://www.youtube.com/watch?v=vkYfgV7nSZA&origin=https://racecams.pages.dev"
-    },
-    {
       "id": "max-kruse-50",
       "desc": "#50 Max Kruse Racing",
       "url": "https://www.youtube.com/watch?v=Sny-FQ0KNzY&origin=https://racecams.pages.dev"
@@ -73,6 +68,11 @@
       "id": "manthey-992",
       "desc": "#992 Manthey Team eFuel Griesemann",
       "url": "https://www.youtube.com/watch?v=7oNyOWDrsXw&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "gps-1",
+      "desc": "GPS",
+      "url": "https://www.youtube.com/watch?v=h9vy9dnkszA&origin=https://racecams.pages.dev"
     },
     {
       "id": "pitline-1",
