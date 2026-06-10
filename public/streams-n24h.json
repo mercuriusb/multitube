@@ -1,0 +1,93 @@
+{
+  "defaultLanguage": "de",
+  "mainStream": {
+    "id": "main",
+    "desc": "Main",
+    "urls": {
+      "de": "https://www.youtube.com/watch?v=oFBUkzV0vFs&origin=https://racecams.pages.dev",
+      "en": "https://www.youtube.com/watch?v=ykB5jleVsAM&origin=https://racecams.pages.dev"
+    }
+  },
+  "onboards": [
+    {
+      "id": "verstappen-3",
+      "desc": "#3 Mercedes-AMG Team Verstappen Racing",
+      "url": "https://www.youtube.com/watch?v=Keqjx5zqeDE&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "dunlop-17",
+      "desc": "#17 Dunlop Motorsport",
+      "url": "https://www.youtube.com/watch?v=2OYU8wKPkDU&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "saugmotoren-36",
+      "desc": "#36 Saugmotoren Motorsport | 3M",
+      "url": "https://www.youtube.com/watch?v=s_pjGCAZDbM&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "max-kruse-50",
+      "desc": "#50 Max Kruse Racing",
+      "url": "https://www.youtube.com/watch?v=Sny-FQ0KNzY&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "hrt-67",
+      "desc": "#67 HRT Ford Racing",
+      "url": "https://www.youtube.com/watch?v=chfYT_QM59k&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "ravenol-80",
+      "desc": "#80 Mercedes-AMG Team RAVENOL",
+      "url": "https://www.youtube.com/watch?v=diS_9fO2uQE&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "bmw-81",
+      "desc": "#81 BMW M Motorsport",
+      "url": "https://www.youtube.com/watch?v=Uzy9dqrP9o8&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "subaru-88",
+      "desc": "#88 Subaru Tecnica International",
+      "url": "https://www.youtube.com/watch?v=rlKlNPaonyU&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "toyota-109",
+      "desc": "#109 TOYOTA GAZOO Rookie Racing",
+      "url": "https://www.youtube.com/watch?v=MvRN_NmNDfE&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "black-falcon-632",
+      "desc": "#632 BLACK FALCON Team FANATEC",
+      "url": "https://www.youtube.com/watch?v=uuTNqqRaQCE&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "hyundai-830",
+      "desc": "#830 Hyundai Motorsport N",
+      "url": "https://www.youtube.com/watch?v=6P2nm5bvzKk&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "manthey-992",
+      "desc": "#992 Manthey Team eFuel Griesemann",
+      "url": "https://www.youtube.com/watch?v=7oNyOWDrsXw&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "gps-1",
+      "desc": "GPS",
+      "url": "https://www.youtube.com/watch?v=h9vy9dnkszA&origin=https://racecams.pages.dev"
+    },
+    {
+      "id": "pitline-1",
+      "desc": "Pitlane",
+      "url": "https://www.youtube.com/watch?v=OZdE2ZOAXfo&origin=https://racecams.pages.dev"
+    }
+  ],
+  "externalLinks": [
+    { "label": "Schedule",      "href": "https://www.24h-rennen.de/en/schedule/"                      },
+    { "label": "Entry list",    "href": "https://www.24h-rennen.de/en/participants/"                  },
+    { "label": "Pitlane",       "href": "https://www.youtube.com/watch?v=OZdE2ZOAXfo"                 },
+    { "label": "GPS",           "href":  "https://www.youtube.com/watch?v=h9vy9dnkszA"                },
+    { "label": "Live timing",   "href": "https://livetiming.azurewebsites.net/event=50?config=w3"     },
+    { "label": "Ticker",        "href": "https://www.24h-rennen.de/liveticker.php"                    },
+    { "label": "Race Control",  "href": "https://streaming.rtl.de/de/event/racecontrol26"                    },
+    { "label": "Radio NBR",     "href": "https://nuerburgring.de/info/service/radio"                  }
+  ]
+}
