@@ -78,6 +78,7 @@
     { "label": "Schedule",      "href": "https://www.24h-lemans.com/en/program"},
     { "label": "Spotter guide", "href": "https://assets.lemans.org/explorer/pdf/courses/2026/24-heures-du-mans/spotter-le-mans-2026.pdf"},
     { "label": "Live timing",   "href": "https://livetiming.fiawec.com/session/18119/live/map?includeSeriesIds=396,409,410&autoplay=true&trackCarLabel=NO&columns=LastLap,BestLap,Interval,Gap,LapNumber,PredictedRank"     },
+    { "label": "Racing Blog Chat",   "href": "https://my.cbox.ws/racingblog"     },
     { "label": "Radio Le Mans", "href": "https://edge-audio-03-gos2.sharp-stream.com/radioshow.mp3"}
   ]
 }
