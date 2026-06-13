@@ -29,16 +29,6 @@
       "url": "https://www.youtube.com/watch?v=XPPtdF6NcNw&origin=https://racecams.pages.dev"
     },
     {
-      "id": "32",
-      "desc": "#32 BMW M4 GT3 Evo",
-      "url": "https://www.youtube.com/watch?v=JPjA2GbvU2E&origin=https://racecams.pages.dev"
-    },
-    {
-      "id": "69",
-      "desc": "#69 BMW M4 GT3 Evo",
-      "url": "https://www.youtube.com/watch?v=hIWtQW6Gbcc&origin=https://racecams.pages.dev"
-    },
-    {
       "id": "17",
       "desc": "#17 Genesis Magma Racing",
       "url": "https://www.youtube.com/watch?v=3g8aGtssQfs&origin=https://racecams.pages.dev"
@@ -47,11 +37,6 @@
       "id": "19",
       "desc": "#19 Genesis Magma Racing",
       "url": "https://www.youtube.com/watch?v=_DE37alY2cg&origin=https://racecams.pages.dev"
-    },
-    {
-      "id": "18",
-      "desc": "#28 Idec Sport",
-      "url": "https://www.youtube.com/watch?v=vLKd0w_lsag&origin=https://racecams.pages.dev"
     },
     {
       "id": "35",
@@ -99,15 +84,22 @@
       "url": "https://www.youtube.com/watch?v=O7uf9KHe2uA&origin=https://racecams.pages.dev"
     },
     {
-      "id": "cad",
-      "desc": "Cadillac Racing",
-      "url": "https://www.youtube.com/watch?v=-HkiRCCWX_M&origin=https://racecams.pages.dev"
+      "id": "32",
+      "desc": "#32 BMW M4 GT3 Evo",
+      "url": "https://www.youtube.com/watch?v=JPjA2GbvU2E&origin=https://racecams.pages.dev"
     },
     {
-      "id": "99",
-      "desc": "#99 AO Racing ",
-      "url": "https://www.youtube.com/watch?v=fCzB_UHhrnA&origin=https://racecams.pages.dev"
+      "id": "69",
+      "desc": "#69 BMW M4 GT3 Evo",
+      "url": "https://www.youtube.com/watch?v=hIWtQW6Gbcc&origin=https://racecams.pages.dev"
+    },
+        {
+      "id": "18",
+      "desc": "#28 Idec Sport",
+      "url": "https://www.youtube.com/watch?v=vLKd0w_lsag&origin=https://racecams.pages.dev"
     }
+
+
   ],
   "externalLinks": [
     { "label": "Spotter guide", "href": "https://assets.lemans.org/explorer/pdf/courses/2026/24-heures-du-mans/spotter-le-mans-2026.pdf"},
