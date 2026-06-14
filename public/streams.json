@@ -4,7 +4,7 @@
     "id": "main",
     "desc": "Main",
     "urls": {
-      "en": "https://www.youtube.com/live/ZbZOBuGw60Y&origin=https://racecams.pages.dev"
+      "en": "https://www.youtube.com/watch?v=LG0xK9nftaE&origin=https://racecams.pages.dev"
     }
   },
   "onboards": [
@@ -31,12 +31,12 @@
     {
       "id": "17",
       "desc": "#17 Genesis Magma Racing",
-      "url": "https://www.youtube.com/watch?v=0K2J44fGO3Q&origin=https://racecams.pages.dev"
+      "url": "https://www.youtube.com/watch?v=8G_-X6N9BEQ&origin=https://racecams.pages.dev"
     },
     {
       "id": "19",
       "desc": "#19 Genesis Magma Racing",
-      "url": "https://www.youtube.com/watch?v=wwFnMOeMU9w&origin=https://racecams.pages.dev"
+      "url": "https://www.youtube.com/watch?v=k0GyQ90agQ8&origin=https://racecams.pages.dev"
     },
     {
       "id": "35",
@@ -51,17 +51,17 @@
     {
       "id": "50",
       "desc": "#50 Ferrari",
-      "url": "https://www.youtube.com/watch?v=2wSiqVKka8Q&origin=https://racecams.pages.dev"
+      "url": "https://www.youtube.com/watch?v=22ZUBs_CTog&origin=https://racecams.pages.dev"
     },
     {
       "id": "51",
       "desc": "#51 Ferrari",
-      "url": "https://www.youtube.com/watch?v=z2YEPEZERGw&origin=https://racecams.pages.dev"
+      "url": "https://www.youtube.com/watch?v=1VlJIzbSCR8&origin=https://racecams.pages.dev"
     },
     {
       "id": "83",
       "desc": "#83 Ferrari",
-      "url": "https://www.youtube.com/watch?v=uP9UrHvKGaU&origin=https://racecams.pages.dev"
+      "url": "https://www.youtube.com/watch?v=wu_8Ihd6Ha0&origin=https://racecams.pages.dev"
     },
     {
       "id": "91",
@@ -93,10 +93,10 @@
       "desc": "#69 BMW M4 GT3 Evo",
       "url": "https://www.youtube.com/watch?v=hIWtQW6Gbcc&origin=https://racecams.pages.dev"
     },
-        {
-      "id": "18",
-      "desc": "#28 Idec Sport",
-      "url": "https://www.youtube.com/watch?v=vLKd0w_lsag&origin=https://racecams.pages.dev"
+    {
+      "id": "99",
+      "desc": "#99 AO Racing ",
+      "url": "https://www.youtube.com/watch?v=fCzB_UHhrnA&origin=https://racecams.pages.dev"
     }
 
 
